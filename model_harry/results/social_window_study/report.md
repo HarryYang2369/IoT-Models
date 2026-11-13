@@ -9,6 +9,8 @@ Official 10-fold CV on datasetJan2026 (listed recordings), harry_rnn, class weig
 | w62 | 5 s | 86.3 | 82.1 | 78.6 | 76.2 | 80.8 | 76.2 | 73.9 | 10 | 5.4 / 4.8 | 6.1 / 5.0 | 11.8 / 8.0 | 11 / 4 |
 | w50 | 4 s | 86.3 | 79.8 | 78.1 | 74.2 | 79.6 | 74.2 | 72.5 | 10 | 4.8 / 4.2 | 5.9 / 4.9 | 13.1 / 8.6 | 11 / 4 |
 | w100rec | 8 s + recency | 87.9 | 82.9 | 81.3 | 77.3 | 82.4 | 77.3 | 75.0 | 10 | 4.8 / 5.4 | 6.1 / 5.8 | 12.5 / 9.3 | 11 / 2 |
+| w75rec | 6 s + recency | 88.1 | 82.7 | 79.3 | 74.3 | 81.1 | 74.3 | 71.2 | 10 | 4.2 / 4.8 | 6.0 / 5.1 | 12.9 / 8.0 | 12 / 4 |
+| w88rec | 7 s + recency | 88.6 | 82.5 | 80.5 | 75.1 | 81.7 | 75.1 | 72.5 | 10 | 4.2 / 5.4 | 6.1 / 5.4 | 12.9 / 8.6 | 12 / 4 |
 
 Median latency on our recordings by the class switched to (s):
 
@@ -19,5 +21,7 @@ Median latency on our recordings by the class switched to (s):
 | w62 | 6.1 | 4.8 | 4.8 | 3.5 |
 | w50 | 5.4 | 4.2 | 4.2 | 3.5 |
 | w100rec | 7.4 | 5.4 | 5.4 | 4.2 |
+| w75rec | 5.4 | 4.2 | 4.8 | 3.7 |
+| w88rec | 6.7 | 4.8 | 5.4 | 4.2 |
 
 Pass mark: every class >= 75 %. Our recordings were never used for training in this study, so their latency (and steady accuracy) is an unseen-person test.

@@ -1,0 +1,53 @@
+activity,file,fold,y,md5,n
+breathingNormally,N_113.csv,-1,0,e42e0012804dc4bbcc6b7fa532de01ca,380
+breathingNormally,N_124.csv,-1,0,468699e647fad34cdbd7ba4b725c9026,380
+breathingNormally,N_184.csv,-1,0,dd6dea4db1da9051d4ea9ec62f0534c5,365
+breathingNormally,N_19.csv,-1,0,9e5b58f0de5c02add6c4ac7bcde33434,391
+breathingNormally,N_26.csv,-1,0,cfe5db8f7fd5027cefc7f9e2ed84e77d,380
+breathingNormally,N_37.csv,-1,0,c9e4915df377ae9a6e0ca4b39a8a8e89,395
+breathingNormally,breathingNormal (150).csv,-1,0,a8f4b9e4d3f057ddf66b119c03206a68,374
+coughing,N_140.csv,-1,1,b26128b37e0245dd6180d417cba8c164,380
+coughing,N_154.csv,-1,1,4e8c02c0bea2a2054a92c87d30fc2c1c,395
+coughing,N_433.csv,-1,1,db66dea88ac94caf74ab412618c94f68,380
+coughing,N_504.csv,-1,1,b8725b0932c030b3e175807398590da5,370
+coughing,N_77.csv,-1,1,50677884f773bab8799c9590be4f67f6,380
+coughing,N_9.csv,-1,1,055bf0b6bef4c96de6be14cdb3b7e203,391
+hyperventilation,N_108.csv,-1,2,7d8394528aba3cce80574c40a7ac0893,380
+hyperventilation,N_141.csv,-1,2,508ec2ffaeab26240e64d55b3c3724f3,389
+hyperventilation,N_395.csv,-1,2,48c49b84a2c00ecd15edc5707aab37a3,376
+hyperventilation,N_399.csv,-1,2,e4fbfeb140dd54722da99d5fcee56b72,380
+hyperventilation,N_69.csv,-1,2,e31853718cd01a5672ebb59d7b8ba851,380
+hyperventilation,N_7.csv,-1,2,df8cc2cd19475071f774dcd426e632b3,392
+hyperventilation,N_71.csv,-1,2,3e2559a9d3dc3e8570a911ec11b8bcd1,380
+hyperventilation,hyperventilating (20).csv,-1,2,668f9a8f67fa93acc0170a18a9171c41,400
+hyperventilation,hyperventilating (35).csv,-1,2,b891999db13b48f5ff7101295b310d4e,380
+other,N_1044.csv,-1,3,9a27666978dcd623242fbe55067fa375,380
+other,N_1084.csv,-1,3,dafd682fe088e4bef2c9f4d1bd569fbc,378
+other,N_145.csv,-1,3,5d4c4d77e067070e7b38bcba1eb3b6db,386
+other,N_147.csv,-1,3,e5dfb362261a74da032344068bea8d4a,380
+other,N_152.csv,-1,3,5dba43aecd220a14dc8cffab8415588d,380
+other,N_1562.csv,-1,3,6c196cbbabfa6bba9c1c9d004e77c928,380
+other,N_1736.csv,-1,3,822bd6a606412e69c9e860a1f80181e2,380
+other,N_2009.csv,-1,3,51d9410669893a08a3501a849d481735,378
+other,N_2090.csv,-1,3,e4fbfeb140dd54722da99d5fcee56b72,380
+other,N_2147.csv,-1,3,5195382870587d190ba910185e2a28c3,380
+other,N_2236.csv,-1,3,5336690bd53b5c2f05136d3fccf537d3,364
+other,N_253.csv,-1,3,e205e094b6c1de46cfc3040d8e2644a6,388
+other,N_277.csv,-1,3,0583b1b5c4e20d24e3feafe5b9f41a9c,390
+other,N_371.csv,-1,3,232940edf0ab47bd23f545fc545e8cae,392
+other,N_379.csv,-1,3,0f6c7b21e9e729ea32fe20c57adaef9b,380
+other,N_38.csv,-1,3,66750ee5f63964dbeb5b3a1e6cd8e432,380
+other,N_382.csv,-1,3,5a4367a208b87264ce8fe6777baa8f72,397
+other,N_451.csv,-1,3,1c0936acfc424e35627deff7decb1357,380
+other,N_453.csv,-1,3,96b1e453f4d6632478e71ea45153d7c0,391
+other,N_465.csv,-1,3,14b2ecce980c7df9f5e45cc5c0e8e12a,380
+other,N_493.csv,-1,3,322dd65af1dd09d4265902ca1a3b9542,385
+other,N_526.csv,-1,3,2968fd696f3bc2cebd189b7c3d8eee98,392
+other,N_527.csv,-1,3,f5193f101e1700ce8c01a5689ba45ece,380
+other,N_90.csv,-1,3,3f84019d9ea5e3f26a1f5efbe80511ed,380
+other,N_94.csv,-1,3,b8682cad4680706fa15c2b9d8211126f,384
+other,other (349).csv,-1,3,0dc8f05fdd6c29406b74ded10285b2a1,370
+other,other (434).csv,-1,3,278fb1712550eaf7cc1ddffc886dbd5d,372
+other,other (484).csv,-1,3,c4b9e3953ed6ef512de25687773c60b7,375
+other,other (536).csv,-1,3,ac6cb038425d2043606911b6b38be651,382
+other,other (636).csv,-1,3,2f4d6ef54793a5ddf0baccdb652a0438,369

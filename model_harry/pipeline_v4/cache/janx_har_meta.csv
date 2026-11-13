@@ -1,0 +1,51 @@
+activity,file,fold,y,md5,n
+sittingStanding,N_120.csv,-1,0,3dcb675fe427bf93faec6d764c20e081,377
+sittingStanding,sittingStanding (10).csv,-1,0,c1a74088afb2839a8a1dbdfcc492ac6d,800
+sittingStanding,sittingStanding (11).csv,-1,0,5c9048511e45dc6ebcc6fc804eaee717,512
+sittingStanding,sittingStanding (12).csv,-1,0,5c9048511e45dc6ebcc6fc804eaee717,512
+sittingStanding,sittingStanding (13).csv,-1,0,4c58739446ee54ab7b7bf7fb0087d58c,448
+sittingStanding,sittingStanding (14).csv,-1,0,4c58739446ee54ab7b7bf7fb0087d58c,448
+sittingStanding,sittingStanding (55).csv,-1,0,2d921bce6edd3512bd981621421207cf,384
+sittingStanding,sittingStanding (66).csv,-1,0,b499dad7d3405d5af3a206693fa1ee1e,390
+sittingStanding,sittingStanding (9).csv,-1,0,c1a74088afb2839a8a1dbdfcc492ac6d,800
+lyingBack,N_15.csv,-1,1,07178b0a1e42e62e3fd4d7a4dfe3d215,392
+lyingBack,N_6.csv,-1,1,9ce3a029e171a7aca860fb047fa45c1e,379
+lyingBack,lyingBack (11).csv,-1,1,d55eace18a5e39130c64e6498e1d4d28,380
+lyingBack,lyingBack (16).csv,-1,1,788918190b70d137d3cfb4bf524c8ae6,355
+lyingBack,lyingBack (3).csv,-1,1,b1c22204241e44a3f6375a2be26ba229,400
+lyingBack,lyingBack (31).csv,-1,1,81c47d278a3520d24c8a0cd8e7735248,379
+lyingLeft,N_20.csv,-1,2,6abe72fddbc3066214eb3d81467eaf45,375
+lyingLeft,N_70.csv,-1,2,09374d0ce4d3c79cc233d8b579a67a67,380
+lyingLeft,lyingLeft (11).csv,-1,2,8077000af169f52d16a638944ea6c005,384
+lyingLeft,lyingLeft (14).csv,-1,2,590d30a99cf653a9ba127b30767bc40c,360
+lyingLeft,lyingLeft (16).csv,-1,2,2d995c2ba6888f5ad12c3611866238be,379
+lyingLeft,lyingLeft (2).csv,-1,2,d7e4c3e6060caf61714f72bb608f9c10,400
+lyingLeft,lyingLeft (32).csv,-1,2,4178b57551772ebf191664829230feeb,379
+lyingRight,N_20.csv,-1,3,e42e0012804dc4bbcc6b7fa532de01ca,380
+lyingRight,lyingRight (1).csv,-1,3,5c8136b6b76cf9cd9f74e4a1d9988684,375
+lyingRight,lyingRight (12).csv,-1,3,68ceca9d3690a4a718f16d91255901b2,353
+lyingRight,lyingRight (2).csv,-1,3,d03e1af943e4e2c50d03793b44b793c7,400
+lyingRight,lyingRight (20).csv,-1,3,a8f4b9e4d3f057ddf66b119c03206a68,374
+lyingRight,lyingRight (36).csv,-1,3,d3b4971d7d6c4bedd0de676d22230a4b,355
+lyingRight,lyingRight (42).csv,-1,3,7d71744f514a093e588d72cb99a6e196,375
+lyingStomach,lyingStomach (3).csv,-1,4,4f5c81111edef158b674146906dc6998,400
+shuffleWalking,N_27.csv,-1,6,8acd024c31669e2698efa30f35b41603,380
+shuffleWalking,N_33.csv,-1,6,28cd6439253f58a673426a510fa033b8,380
+shuffleWalking,N_35.csv,-1,6,89c32c88d1c57052136fb26f638c1606,380
+shuffleWalking,N_39.csv,-1,6,0265e96ea17726834d391ee2a3a6c7d8,376
+ascending,N_22.csv,-1,7,9bc330eca259a8b80f5496535b565f99,380
+descending,N_89.csv,-1,8,4379f7da1406aa8e585a99ab3d5dce62,380
+descending,N_9.csv,-1,8,4b3cd8b0e22d0fef3798d25249c3eb3b,380
+running,N_12.csv,-1,9,101b1c1a195a30795f0570f8cb454eac,380
+running,N_14.csv,-1,9,cce3763279f3cbe6e9c783b0cabe5f5f,380
+running,N_17.csv,-1,9,1e78571f67f546ca589972d72604cbe5,395
+running,N_47.csv,-1,9,d9b0a38a4c2f8f6cd1eee04741f13d07,380
+running,N_5.csv,-1,9,313256ce6839a9922320734689aea67f,380
+running,N_61.csv,-1,9,f1c415504c57eea4a9533c1071067168,380
+miscMovement,N_113.csv,-1,10,d792d90ee51f6d3e7846c199e43965ee,380
+miscMovement,N_24.csv,-1,10,0f0df671f36f681c263c392497430349,370
+miscMovement,N_25.csv,-1,10,0fbb60b063e466c5db6507cc01fc2995,380
+miscMovement,N_27.csv,-1,10,c452a5320d6040f9e851ac504470a828,380
+miscMovement,N_29.csv,-1,10,aaaf9c6bf5b7c057278970f929739f4f,380
+miscMovement,N_30.csv,-1,10,482f076e44ae97dc96448a301ddc0724,396
+miscMovement,miscMovement (45).csv,-1,10,9654d778b16a3ea9c991c2a567f72980,399

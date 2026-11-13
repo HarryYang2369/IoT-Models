@@ -1,0 +1,8 @@
+# Linux / WSL2 with an NVIDIA GPU (e.g. RTX 4060 laptop). Python 3.12. See WINDOWS_GPU_GUIDE.md.
+tensorflow[and-cuda]==2.20.0
+numpy
+pandas
+scikit-learn
+scipy
+matplotlib
+pyyaml

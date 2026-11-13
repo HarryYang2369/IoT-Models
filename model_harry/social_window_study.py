@@ -11,6 +11,8 @@ Candidates (all harry_rnn, final social recipe: Jan recipe, class weights balanc
   w100rec   8 s window trained with "recency" splices: half of the training windows have their first
             25-62 samples replaced by another training window (gravity-aligned), label = the last part,
             so the model learns to answer from the most recent 3-6 s.
+  w75rec    6 s window, same recency training (last 28-56 samples = 2.2-4.5 s kept); added 2026-11-13.
+  w88rec    7 s window (88 samples), same recency training (last 33-66 samples = 2.6-5.3 s kept); added 2026-11-13.
 
 Per candidate and official fold k (trained on folds != k of datasetJan2026, listed recordings only):
   accuracy  per-class recall on fold k's test windows (step 25), exactly like the marking
@@ -41,7 +43,8 @@ HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE))
 OUT = HERE / "results" / "social_window_study"
 JOBS = OUT / "jobs"
-CANDS = {"w100": (100, False), "w75": (75, False), "w62": (62, False), "w50": (50, False), "w100rec": (100, True)}
+CANDS = {"w100": (100, False), "w75": (75, False), "w62": (62, False), "w50": (50, False), "w100rec": (100, True),
+         "w75rec": (75, True), "w88rec": (88, True)}
 FOLDS = list(range(10))
 PKT, FS, NA, NB = 32, 12.5, 200, 300           # packet size; 16 s before / 24 s after the change
 STEPS = (6, 12)
@@ -170,7 +173,9 @@ def run_job(cand, k, epochs):
             rec["epochs"] = epochs
         Xtr, ytr, _, _ = windows([("jan_social", {"fold_ne": k}, rec["step"])], "social", W)
         if rec_aug:
-            Xtr, ytr = _recency(Xtr, ytr, rng)
+            # keep the last 38-75 % of the window from the labelled recording (w100: 38-75 samples, as before;
+            # w75: 28-56 samples = 2.2-4.5 s)
+            Xtr, ytr = _recency(Xtr, ytr, rng, kmin=round(.38 * W), kmax=round(.75 * W))
         model = zoo.build("harry_rnn", "social", 4, Xtr)
         hist = _fit(model, Xtr, ytr, 4, rec, {}, [], "social", {"seed_base": 0}, None)
         Xte, yte, _, rid = windows([("jan_social", {"fold_eq": k}, 25)], "social", W)

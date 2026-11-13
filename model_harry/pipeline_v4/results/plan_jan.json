@@ -1,0 +1,3782 @@
+[
+ {
+  "id": "cnn_w50_jan_s0_f0",
+  "group": "cv",
+  "task": "social",
+  "model": "harry_cnn",
+  "window": 50,
+  "recency": false,
+  "cand": "cnn_w50",
+  "recipe": "jan",
+  "seed": 0,
+  "fold": 0,
+  "power": 0.6,
+  "train": [
+   [
+    "jan_social",
+    {
+     "fold_ne": 0
+    },
+    null
+   ]
+  ],
+  "tests": {
+   "cv": {
+    "task": "social",
+    "window": 50,
+    "parts": [
+     [
+      "jan_social",
+      {
+       "fold_eq": 0
+      },
+      25
+     ],
+     [
+      "real",
+      {
+       "fold_eq": 0
+      },
+      25
+     ]
+    ]
+   }
+  },
+  "replay": "all",
+  "finetune": null,
+  "init_from": null,
+  "monitor": null,
+  "save_model": false,
+  "depends": [],
+  "person": null,
+  "export": false,
+  "variant": "all",
+  "prio": 0
+ },
+ {
+  "id": "cnn_w50rec_jan_s0_f0",
+  "group": "cv",
+  "task": "social",
+  "model": "harry_cnn",
+  "window": 50,
+  "recency": true,
+  "cand": "cnn_w50rec",
+  "recipe": "jan",
+  "seed": 0,
+  "fold": 0,
+  "power": 0.6,
+  "train": [
+   [
+    "jan_social",
+    {
+     "fold_ne": 0
+    },
+    null
+   ]
+  ],
+  "tests": {
+   "cv": {
+    "task": "social",
+    "window": 50,
+    "parts": [
+     [
+      "jan_social",
+      {
+       "fold_eq": 0
+      },
+      25
+     ],
+     [
+      "real",
+      {
+       "fold_eq": 0
+      },
+      25
+     ]
+    ]
+   }
+  },
+  "replay": "all",
+  "finetune": null,
+  "init_from": null,
+  "monitor": null,
+  "save_model": false,
+  "depends": [],
+  "person": null,
+  "export": false,
+  "variant": "all",
+  "prio": 0
+ },
+ {
+  "id": "cnn_w75_jan_s0_f0",
+  "group": "cv",
+  "task": "social",
+  "model": "harry_cnn",
+  "window": 75,
+  "recency": false,
+  "cand": "cnn_w75",
+  "recipe": "jan",
+  "seed": 0,
+  "fold": 0,
+  "power": 0.6,
+  "train": [
+   [
+    "jan_social",
+    {
+     "fold_ne": 0
+    },
+    null
+   ]
+  ],
+  "tests": {
+   "cv": {
+    "task": "social",
+    "window": 75,
+    "parts": [
+     [
+      "jan_social",
+      {
+       "fold_eq": 0
+      },
+      25
+     ],
+     [
+      "real",
+      {
+       "fold_eq": 0
+      },
+      25
+     ]
+    ]
+   }
+  },
+  "replay": "all",
+  "finetune": null,
+  "init_from": null,
+  "monitor": null,
+  "save_model": false,
+  "depends": [],
+  "person": null,
+  "export": false,
+  "variant": "all",
+  "prio": 0
+ },
+ {
+  "id": "cnn_w75rec_jan_s0_f0",
+  "group": "cv",
+  "task": "social",
+  "model": "harry_cnn",
+  "window": 75,
+  "recency": true,
+  "cand": "cnn_w75rec",
+  "recipe": "jan",
+  "seed": 0,
+  "fold": 0,
+  "power": 0.6,
+  "train": [
+   [
+    "jan_social",
+    {
+     "fold_ne": 0
+    },
+    null
+   ]
+  ],
+  "tests": {
+   "cv": {
+    "task": "social",
+    "window": 75,
+    "parts": [
+     [
+      "jan_social",
+      {
+       "fold_eq": 0
+      },
+      25
+     ],
+     [
+      "real",
+      {
+       "fold_eq": 0
+      },
+      25
+     ]
+    ]
+   }
+  },
+  "replay": "all",
+  "finetune": null,
+  "init_from": null,
+  "monitor": null,
+  "save_model": false,
+  "depends": [],
+  "person": null,
+  "export": false,
+  "variant": "all",
+  "prio": 0
+ },
+ {
+  "id": "cnn_w100_jan_s0_f0",
+  "group": "cv",
+  "task": "social",
+  "model": "harry_cnn",
+  "window": 100,
+  "recency": false,
+  "cand": "cnn_w100",
+  "recipe": "jan",
+  "seed": 0,
+  "fold": 0,
+  "power": 0.6,
+  "train": [
+   [
+    "jan_social",
+    {
+     "fold_ne": 0
+    },
+    null
+   ]
+  ],
+  "tests": {
+   "cv": {
+    "task": "social",
+    "window": 100,
+    "parts": [
+     [
+      "jan_social",
+      {
+       "fold_eq": 0
+      },
+      25
+     ],
+     [
+      "real",
+      {
+       "fold_eq": 0
+      },
+      25
+     ]
+    ]
+   }
+  },
+  "replay": "all",
+  "finetune": null,
+  "init_from": null,
+  "monitor": null,
+  "save_model": false,
+  "depends": [],
+  "person": null,
+  "export": false,
+  "variant": "all",
+  "prio": 0
+ },
+ {
+  "id": "cnn_w100rec_jan_s0_f0",
+  "group": "cv",
+  "task": "social",
+  "model": "harry_cnn",
+  "window": 100,
+  "recency": true,
+  "cand": "cnn_w100rec",
+  "recipe": "jan",
+  "seed": 0,
+  "fold": 0,
+  "power": 0.6,
+  "train": [
+   [
+    "jan_social",
+    {
+     "fold_ne": 0
+    },
+    null
+   ]
+  ],
+  "tests": {
+   "cv": {
+    "task": "social",
+    "window": 100,
+    "parts": [
+     [
+      "jan_social",
+      {
+       "fold_eq": 0
+      },
+      25
+     ],
+     [
+      "real",
+      {
+       "fold_eq": 0
+      },
+      25
+     ]
+    ]
+   }
+  },
+  "replay": "all",
+  "finetune": null,
+  "init_from": null,
+  "monitor": null,
+  "save_model": false,
+  "depends": [],
+  "person": null,
+  "export": false,
+  "variant": "all",
+  "prio": 0
+ },
+ {
+  "id": "rnn_w75_jan_s0_f0",
+  "group": "cv",
+  "task": "social",
+  "model": "harry_rnn",
+  "window": 75,
+  "recency": false,
+  "cand": "rnn_w75",
+  "recipe": "jan",
+  "seed": 0,
+  "fold": 0,
+  "power": 0.6,
+  "train": [
+   [
+    "jan_social",
+    {
+     "fold_ne": 0
+    },
+    null
+   ]
+  ],
+  "tests": {
+   "cv": {
+    "task": "social",
+    "window": 75,
+    "parts": [
+     [
+      "jan_social",
+      {
+       "fold_eq": 0
+      },
+      25
+     ],
+     [
+      "real",
+      {
+       "fold_eq": 0
+      },
+      25
+     ]
+    ]
+   }
+  },
+  "replay": "all",
+  "finetune": null,
+  "init_from": null,
+  "monitor": null,
+  "save_model": false,
+  "depends": [],
+  "person": null,
+  "export": false,
+  "variant": "all",
+  "prio": 0
+ },
+ {
+  "id": "cnn_w50_jan_s0_f1",
+  "group": "cv",
+  "task": "social",
+  "model": "harry_cnn",
+  "window": 50,
+  "recency": false,
+  "cand": "cnn_w50",
+  "recipe": "jan",
+  "seed": 0,
+  "fold": 1,
+  "power": 0.6,
+  "train": [
+   [
+    "jan_social",
+    {
+     "fold_ne": 1
+    },
+    null
+   ]
+  ],
+  "tests": {
+   "cv": {
+    "task": "social",
+    "window": 50,
+    "parts": [
+     [
+      "jan_social",
+      {
+       "fold_eq": 1
+      },
+      25
+     ],
+     [
+      "real",
+      {
+       "fold_eq": 1
+      },
+      25
+     ]
+    ]
+   }
+  },
+  "replay": "all",
+  "finetune": null,
+  "init_from": null,
+  "monitor": null,
+  "save_model": false,
+  "depends": [],
+  "person": null,
+  "export": false,
+  "variant": "all",
+  "prio": 0
+ },
+ {
+  "id": "cnn_w50rec_jan_s0_f1",
+  "group": "cv",
+  "task": "social",
+  "model": "harry_cnn",
+  "window": 50,
+  "recency": true,
+  "cand": "cnn_w50rec",
+  "recipe": "jan",
+  "seed": 0,
+  "fold": 1,
+  "power": 0.6,
+  "train": [
+   [
+    "jan_social",
+    {
+     "fold_ne": 1
+    },
+    null
+   ]
+  ],
+  "tests": {
+   "cv": {
+    "task": "social",
+    "window": 50,
+    "parts": [
+     [
+      "jan_social",
+      {
+       "fold_eq": 1
+      },
+      25
+     ],
+     [
+      "real",
+      {
+       "fold_eq": 1
+      },
+      25
+     ]
+    ]
+   }
+  },
+  "replay": "all",
+  "finetune": null,
+  "init_from": null,
+  "monitor": null,
+  "save_model": false,
+  "depends": [],
+  "person": null,
+  "export": false,
+  "variant": "all",
+  "prio": 0
+ },
+ {
+  "id": "cnn_w75_jan_s0_f1",
+  "group": "cv",
+  "task": "social",
+  "model": "harry_cnn",
+  "window": 75,
+  "recency": false,
+  "cand": "cnn_w75",
+  "recipe": "jan",
+  "seed": 0,
+  "fold": 1,
+  "power": 0.6,
+  "train": [
+   [
+    "jan_social",
+    {
+     "fold_ne": 1
+    },
+    null
+   ]
+  ],
+  "tests": {
+   "cv": {
+    "task": "social",
+    "window": 75,
+    "parts": [
+     [
+      "jan_social",
+      {
+       "fold_eq": 1
+      },
+      25
+     ],
+     [
+      "real",
+      {
+       "fold_eq": 1
+      },
+      25
+     ]
+    ]
+   }
+  },
+  "replay": "all",
+  "finetune": null,
+  "init_from": null,
+  "monitor": null,
+  "save_model": false,
+  "depends": [],
+  "person": null,
+  "export": false,
+  "variant": "all",
+  "prio": 0
+ },
+ {
+  "id": "cnn_w75rec_jan_s0_f1",
+  "group": "cv",
+  "task": "social",
+  "model": "harry_cnn",
+  "window": 75,
+  "recency": true,
+  "cand": "cnn_w75rec",
+  "recipe": "jan",
+  "seed": 0,
+  "fold": 1,
+  "power": 0.6,
+  "train": [
+   [
+    "jan_social",
+    {
+     "fold_ne": 1
+    },
+    null
+   ]
+  ],
+  "tests": {
+   "cv": {
+    "task": "social",
+    "window": 75,
+    "parts": [
+     [
+      "jan_social",
+      {
+       "fold_eq": 1
+      },
+      25
+     ],
+     [
+      "real",
+      {
+       "fold_eq": 1
+      },
+      25
+     ]
+    ]
+   }
+  },
+  "replay": "all",
+  "finetune": null,
+  "init_from": null,
+  "monitor": null,
+  "save_model": false,
+  "depends": [],
+  "person": null,
+  "export": false,
+  "variant": "all",
+  "prio": 0
+ },
+ {
+  "id": "cnn_w100_jan_s0_f1",
+  "group": "cv",
+  "task": "social",
+  "model": "harry_cnn",
+  "window": 100,
+  "recency": false,
+  "cand": "cnn_w100",
+  "recipe": "jan",
+  "seed": 0,
+  "fold": 1,
+  "power": 0.6,
+  "train": [
+   [
+    "jan_social",
+    {
+     "fold_ne": 1
+    },
+    null
+   ]
+  ],
+  "tests": {
+   "cv": {
+    "task": "social",
+    "window": 100,
+    "parts": [
+     [
+      "jan_social",
+      {
+       "fold_eq": 1
+      },
+      25
+     ],
+     [
+      "real",
+      {
+       "fold_eq": 1
+      },
+      25
+     ]
+    ]
+   }
+  },
+  "replay": "all",
+  "finetune": null,
+  "init_from": null,
+  "monitor": null,
+  "save_model": false,
+  "depends": [],
+  "person": null,
+  "export": false,
+  "variant": "all",
+  "prio": 0
+ },
+ {
+  "id": "cnn_w100rec_jan_s0_f1",
+  "group": "cv",
+  "task": "social",
+  "model": "harry_cnn",
+  "window": 100,
+  "recency": true,
+  "cand": "cnn_w100rec",
+  "recipe": "jan",
+  "seed": 0,
+  "fold": 1,
+  "power": 0.6,
+  "train": [
+   [
+    "jan_social",
+    {
+     "fold_ne": 1
+    },
+    null
+   ]
+  ],
+  "tests": {
+   "cv": {
+    "task": "social",
+    "window": 100,
+    "parts": [
+     [
+      "jan_social",
+      {
+       "fold_eq": 1
+      },
+      25
+     ],
+     [
+      "real",
+      {
+       "fold_eq": 1
+      },
+      25
+     ]
+    ]
+   }
+  },
+  "replay": "all",
+  "finetune": null,
+  "init_from": null,
+  "monitor": null,
+  "save_model": false,
+  "depends": [],
+  "person": null,
+  "export": false,
+  "variant": "all",
+  "prio": 0
+ },
+ {
+  "id": "rnn_w75_jan_s0_f1",
+  "group": "cv",
+  "task": "social",
+  "model": "harry_rnn",
+  "window": 75,
+  "recency": false,
+  "cand": "rnn_w75",
+  "recipe": "jan",
+  "seed": 0,
+  "fold": 1,
+  "power": 0.6,
+  "train": [
+   [
+    "jan_social",
+    {
+     "fold_ne": 1
+    },
+    null
+   ]
+  ],
+  "tests": {
+   "cv": {
+    "task": "social",
+    "window": 75,
+    "parts": [
+     [
+      "jan_social",
+      {
+       "fold_eq": 1
+      },
+      25
+     ],
+     [
+      "real",
+      {
+       "fold_eq": 1
+      },
+      25
+     ]
+    ]
+   }
+  },
+  "replay": "all",
+  "finetune": null,
+  "init_from": null,
+  "monitor": null,
+  "save_model": false,
+  "depends": [],
+  "person": null,
+  "export": false,
+  "variant": "all",
+  "prio": 0
+ },
+ {
+  "id": "cnn_w50_jan_s0_f2",
+  "group": "cv",
+  "task": "social",
+  "model": "harry_cnn",
+  "window": 50,
+  "recency": false,
+  "cand": "cnn_w50",
+  "recipe": "jan",
+  "seed": 0,
+  "fold": 2,
+  "power": 0.6,
+  "train": [
+   [
+    "jan_social",
+    {
+     "fold_ne": 2
+    },
+    null
+   ]
+  ],
+  "tests": {
+   "cv": {
+    "task": "social",
+    "window": 50,
+    "parts": [
+     [
+      "jan_social",
+      {
+       "fold_eq": 2
+      },
+      25
+     ],
+     [
+      "real",
+      {
+       "fold_eq": 2
+      },
+      25
+     ]
+    ]
+   }
+  },
+  "replay": "all",
+  "finetune": null,
+  "init_from": null,
+  "monitor": null,
+  "save_model": false,
+  "depends": [],
+  "person": null,
+  "export": false,
+  "variant": "all",
+  "prio": 0
+ },
+ {
+  "id": "cnn_w50rec_jan_s0_f2",
+  "group": "cv",
+  "task": "social",
+  "model": "harry_cnn",
+  "window": 50,
+  "recency": true,
+  "cand": "cnn_w50rec",
+  "recipe": "jan",
+  "seed": 0,
+  "fold": 2,
+  "power": 0.6,
+  "train": [
+   [
+    "jan_social",
+    {
+     "fold_ne": 2
+    },
+    null
+   ]
+  ],
+  "tests": {
+   "cv": {
+    "task": "social",
+    "window": 50,
+    "parts": [
+     [
+      "jan_social",
+      {
+       "fold_eq": 2
+      },
+      25
+     ],
+     [
+      "real",
+      {
+       "fold_eq": 2
+      },
+      25
+     ]
+    ]
+   }
+  },
+  "replay": "all",
+  "finetune": null,
+  "init_from": null,
+  "monitor": null,
+  "save_model": false,
+  "depends": [],
+  "person": null,
+  "export": false,
+  "variant": "all",
+  "prio": 0
+ },
+ {
+  "id": "cnn_w75_jan_s0_f2",
+  "group": "cv",
+  "task": "social",
+  "model": "harry_cnn",
+  "window": 75,
+  "recency": false,
+  "cand": "cnn_w75",
+  "recipe": "jan",
+  "seed": 0,
+  "fold": 2,
+  "power": 0.6,
+  "train": [
+   [
+    "jan_social",
+    {
+     "fold_ne": 2
+    },
+    null
+   ]
+  ],
+  "tests": {
+   "cv": {
+    "task": "social",
+    "window": 75,
+    "parts": [
+     [
+      "jan_social",
+      {
+       "fold_eq": 2
+      },
+      25
+     ],
+     [
+      "real",
+      {
+       "fold_eq": 2
+      },
+      25
+     ]
+    ]
+   }
+  },
+  "replay": "all",
+  "finetune": null,
+  "init_from": null,
+  "monitor": null,
+  "save_model": false,
+  "depends": [],
+  "person": null,
+  "export": false,
+  "variant": "all",
+  "prio": 0
+ },
+ {
+  "id": "cnn_w75rec_jan_s0_f2",
+  "group": "cv",
+  "task": "social",
+  "model": "harry_cnn",
+  "window": 75,
+  "recency": true,
+  "cand": "cnn_w75rec",
+  "recipe": "jan",
+  "seed": 0,
+  "fold": 2,
+  "power": 0.6,
+  "train": [
+   [
+    "jan_social",
+    {
+     "fold_ne": 2
+    },
+    null
+   ]
+  ],
+  "tests": {
+   "cv": {
+    "task": "social",
+    "window": 75,
+    "parts": [
+     [
+      "jan_social",
+      {
+       "fold_eq": 2
+      },
+      25
+     ],
+     [
+      "real",
+      {
+       "fold_eq": 2
+      },
+      25
+     ]
+    ]
+   }
+  },
+  "replay": "all",
+  "finetune": null,
+  "init_from": null,
+  "monitor": null,
+  "save_model": false,
+  "depends": [],
+  "person": null,
+  "export": false,
+  "variant": "all",
+  "prio": 0
+ },
+ {
+  "id": "cnn_w100_jan_s0_f2",
+  "group": "cv",
+  "task": "social",
+  "model": "harry_cnn",
+  "window": 100,
+  "recency": false,
+  "cand": "cnn_w100",
+  "recipe": "jan",
+  "seed": 0,
+  "fold": 2,
+  "power": 0.6,
+  "train": [
+   [
+    "jan_social",
+    {
+     "fold_ne": 2
+    },
+    null
+   ]
+  ],
+  "tests": {
+   "cv": {
+    "task": "social",
+    "window": 100,
+    "parts": [
+     [
+      "jan_social",
+      {
+       "fold_eq": 2
+      },
+      25
+     ],
+     [
+      "real",
+      {
+       "fold_eq": 2
+      },
+      25
+     ]
+    ]
+   }
+  },
+  "replay": "all",
+  "finetune": null,
+  "init_from": null,
+  "monitor": null,
+  "save_model": false,
+  "depends": [],
+  "person": null,
+  "export": false,
+  "variant": "all",
+  "prio": 0
+ },
+ {
+  "id": "cnn_w100rec_jan_s0_f2",
+  "group": "cv",
+  "task": "social",
+  "model": "harry_cnn",
+  "window": 100,
+  "recency": true,
+  "cand": "cnn_w100rec",
+  "recipe": "jan",
+  "seed": 0,
+  "fold": 2,
+  "power": 0.6,
+  "train": [
+   [
+    "jan_social",
+    {
+     "fold_ne": 2
+    },
+    null
+   ]
+  ],
+  "tests": {
+   "cv": {
+    "task": "social",
+    "window": 100,
+    "parts": [
+     [
+      "jan_social",
+      {
+       "fold_eq": 2
+      },
+      25
+     ],
+     [
+      "real",
+      {
+       "fold_eq": 2
+      },
+      25
+     ]
+    ]
+   }
+  },
+  "replay": "all",
+  "finetune": null,
+  "init_from": null,
+  "monitor": null,
+  "save_model": false,
+  "depends": [],
+  "person": null,
+  "export": false,
+  "variant": "all",
+  "prio": 0
+ },
+ {
+  "id": "rnn_w75_jan_s0_f2",
+  "group": "cv",
+  "task": "social",
+  "model": "harry_rnn",
+  "window": 75,
+  "recency": false,
+  "cand": "rnn_w75",
+  "recipe": "jan",
+  "seed": 0,
+  "fold": 2,
+  "power": 0.6,
+  "train": [
+   [
+    "jan_social",
+    {
+     "fold_ne": 2
+    },
+    null
+   ]
+  ],
+  "tests": {
+   "cv": {
+    "task": "social",
+    "window": 75,
+    "parts": [
+     [
+      "jan_social",
+      {
+       "fold_eq": 2
+      },
+      25
+     ],
+     [
+      "real",
+      {
+       "fold_eq": 2
+      },
+      25
+     ]
+    ]
+   }
+  },
+  "replay": "all",
+  "finetune": null,
+  "init_from": null,
+  "monitor": null,
+  "save_model": false,
+  "depends": [],
+  "person": null,
+  "export": false,
+  "variant": "all",
+  "prio": 0
+ },
+ {
+  "id": "cnn_w50_jan_s0_f3",
+  "group": "cv",
+  "task": "social",
+  "model": "harry_cnn",
+  "window": 50,
+  "recency": false,
+  "cand": "cnn_w50",
+  "recipe": "jan",
+  "seed": 0,
+  "fold": 3,
+  "power": 0.6,
+  "train": [
+   [
+    "jan_social",
+    {
+     "fold_ne": 3
+    },
+    null
+   ]
+  ],
+  "tests": {
+   "cv": {
+    "task": "social",
+    "window": 50,
+    "parts": [
+     [
+      "jan_social",
+      {
+       "fold_eq": 3
+      },
+      25
+     ],
+     [
+      "real",
+      {
+       "fold_eq": 3
+      },
+      25
+     ]
+    ]
+   }
+  },
+  "replay": "all",
+  "finetune": null,
+  "init_from": null,
+  "monitor": null,
+  "save_model": false,
+  "depends": [],
+  "person": null,
+  "export": false,
+  "variant": "all",
+  "prio": 0
+ },
+ {
+  "id": "cnn_w50rec_jan_s0_f3",
+  "group": "cv",
+  "task": "social",
+  "model": "harry_cnn",
+  "window": 50,
+  "recency": true,
+  "cand": "cnn_w50rec",
+  "recipe": "jan",
+  "seed": 0,
+  "fold": 3,
+  "power": 0.6,
+  "train": [
+   [
+    "jan_social",
+    {
+     "fold_ne": 3
+    },
+    null
+   ]
+  ],
+  "tests": {
+   "cv": {
+    "task": "social",
+    "window": 50,
+    "parts": [
+     [
+      "jan_social",
+      {
+       "fold_eq": 3
+      },
+      25
+     ],
+     [
+      "real",
+      {
+       "fold_eq": 3
+      },
+      25
+     ]
+    ]
+   }
+  },
+  "replay": "all",
+  "finetune": null,
+  "init_from": null,
+  "monitor": null,
+  "save_model": false,
+  "depends": [],
+  "person": null,
+  "export": false,
+  "variant": "all",
+  "prio": 0
+ },
+ {
+  "id": "cnn_w75_jan_s0_f3",
+  "group": "cv",
+  "task": "social",
+  "model": "harry_cnn",
+  "window": 75,
+  "recency": false,
+  "cand": "cnn_w75",
+  "recipe": "jan",
+  "seed": 0,
+  "fold": 3,
+  "power": 0.6,
+  "train": [
+   [
+    "jan_social",
+    {
+     "fold_ne": 3
+    },
+    null
+   ]
+  ],
+  "tests": {
+   "cv": {
+    "task": "social",
+    "window": 75,
+    "parts": [
+     [
+      "jan_social",
+      {
+       "fold_eq": 3
+      },
+      25
+     ],
+     [
+      "real",
+      {
+       "fold_eq": 3
+      },
+      25
+     ]
+    ]
+   }
+  },
+  "replay": "all",
+  "finetune": null,
+  "init_from": null,
+  "monitor": null,
+  "save_model": false,
+  "depends": [],
+  "person": null,
+  "export": false,
+  "variant": "all",
+  "prio": 0
+ },
+ {
+  "id": "cnn_w75rec_jan_s0_f3",
+  "group": "cv",
+  "task": "social",
+  "model": "harry_cnn",
+  "window": 75,
+  "recency": true,
+  "cand": "cnn_w75rec",
+  "recipe": "jan",
+  "seed": 0,
+  "fold": 3,
+  "power": 0.6,
+  "train": [
+   [
+    "jan_social",
+    {
+     "fold_ne": 3
+    },
+    null
+   ]
+  ],
+  "tests": {
+   "cv": {
+    "task": "social",
+    "window": 75,
+    "parts": [
+     [
+      "jan_social",
+      {
+       "fold_eq": 3
+      },
+      25
+     ],
+     [
+      "real",
+      {
+       "fold_eq": 3
+      },
+      25
+     ]
+    ]
+   }
+  },
+  "replay": "all",
+  "finetune": null,
+  "init_from": null,
+  "monitor": null,
+  "save_model": false,
+  "depends": [],
+  "person": null,
+  "export": false,
+  "variant": "all",
+  "prio": 0
+ },
+ {
+  "id": "cnn_w100_jan_s0_f3",
+  "group": "cv",
+  "task": "social",
+  "model": "harry_cnn",
+  "window": 100,
+  "recency": false,
+  "cand": "cnn_w100",
+  "recipe": "jan",
+  "seed": 0,
+  "fold": 3,
+  "power": 0.6,
+  "train": [
+   [
+    "jan_social",
+    {
+     "fold_ne": 3
+    },
+    null
+   ]
+  ],
+  "tests": {
+   "cv": {
+    "task": "social",
+    "window": 100,
+    "parts": [
+     [
+      "jan_social",
+      {
+       "fold_eq": 3
+      },
+      25
+     ],
+     [
+      "real",
+      {
+       "fold_eq": 3
+      },
+      25
+     ]
+    ]
+   }
+  },
+  "replay": "all",
+  "finetune": null,
+  "init_from": null,
+  "monitor": null,
+  "save_model": false,
+  "depends": [],
+  "person": null,
+  "export": false,
+  "variant": "all",
+  "prio": 0
+ },
+ {
+  "id": "cnn_w100rec_jan_s0_f3",
+  "group": "cv",
+  "task": "social",
+  "model": "harry_cnn",
+  "window": 100,
+  "recency": true,
+  "cand": "cnn_w100rec",
+  "recipe": "jan",
+  "seed": 0,
+  "fold": 3,
+  "power": 0.6,
+  "train": [
+   [
+    "jan_social",
+    {
+     "fold_ne": 3
+    },
+    null
+   ]
+  ],
+  "tests": {
+   "cv": {
+    "task": "social",
+    "window": 100,
+    "parts": [
+     [
+      "jan_social",
+      {
+       "fold_eq": 3
+      },
+      25
+     ],
+     [
+      "real",
+      {
+       "fold_eq": 3
+      },
+      25
+     ]
+    ]
+   }
+  },
+  "replay": "all",
+  "finetune": null,
+  "init_from": null,
+  "monitor": null,
+  "save_model": false,
+  "depends": [],
+  "person": null,
+  "export": false,
+  "variant": "all",
+  "prio": 0
+ },
+ {
+  "id": "rnn_w75_jan_s0_f3",
+  "group": "cv",
+  "task": "social",
+  "model": "harry_rnn",
+  "window": 75,
+  "recency": false,
+  "cand": "rnn_w75",
+  "recipe": "jan",
+  "seed": 0,
+  "fold": 3,
+  "power": 0.6,
+  "train": [
+   [
+    "jan_social",
+    {
+     "fold_ne": 3
+    },
+    null
+   ]
+  ],
+  "tests": {
+   "cv": {
+    "task": "social",
+    "window": 75,
+    "parts": [
+     [
+      "jan_social",
+      {
+       "fold_eq": 3
+      },
+      25
+     ],
+     [
+      "real",
+      {
+       "fold_eq": 3
+      },
+      25
+     ]
+    ]
+   }
+  },
+  "replay": "all",
+  "finetune": null,
+  "init_from": null,
+  "monitor": null,
+  "save_model": false,
+  "depends": [],
+  "person": null,
+  "export": false,
+  "variant": "all",
+  "prio": 0
+ },
+ {
+  "id": "cnn_w50_jan_s0_f4",
+  "group": "cv",
+  "task": "social",
+  "model": "harry_cnn",
+  "window": 50,
+  "recency": false,
+  "cand": "cnn_w50",
+  "recipe": "jan",
+  "seed": 0,
+  "fold": 4,
+  "power": 0.6,
+  "train": [
+   [
+    "jan_social",
+    {
+     "fold_ne": 4
+    },
+    null
+   ]
+  ],
+  "tests": {
+   "cv": {
+    "task": "social",
+    "window": 50,
+    "parts": [
+     [
+      "jan_social",
+      {
+       "fold_eq": 4
+      },
+      25
+     ],
+     [
+      "real",
+      {
+       "fold_eq": 4
+      },
+      25
+     ]
+    ]
+   }
+  },
+  "replay": "all",
+  "finetune": null,
+  "init_from": null,
+  "monitor": null,
+  "save_model": false,
+  "depends": [],
+  "person": null,
+  "export": false,
+  "variant": "all",
+  "prio": 0
+ },
+ {
+  "id": "cnn_w50rec_jan_s0_f4",
+  "group": "cv",
+  "task": "social",
+  "model": "harry_cnn",
+  "window": 50,
+  "recency": true,
+  "cand": "cnn_w50rec",
+  "recipe": "jan",
+  "seed": 0,
+  "fold": 4,
+  "power": 0.6,
+  "train": [
+   [
+    "jan_social",
+    {
+     "fold_ne": 4
+    },
+    null
+   ]
+  ],
+  "tests": {
+   "cv": {
+    "task": "social",
+    "window": 50,
+    "parts": [
+     [
+      "jan_social",
+      {
+       "fold_eq": 4
+      },
+      25
+     ],
+     [
+      "real",
+      {
+       "fold_eq": 4
+      },
+      25
+     ]
+    ]
+   }
+  },
+  "replay": "all",
+  "finetune": null,
+  "init_from": null,
+  "monitor": null,
+  "save_model": false,
+  "depends": [],
+  "person": null,
+  "export": false,
+  "variant": "all",
+  "prio": 0
+ },
+ {
+  "id": "cnn_w75_jan_s0_f4",
+  "group": "cv",
+  "task": "social",
+  "model": "harry_cnn",
+  "window": 75,
+  "recency": false,
+  "cand": "cnn_w75",
+  "recipe": "jan",
+  "seed": 0,
+  "fold": 4,
+  "power": 0.6,
+  "train": [
+   [
+    "jan_social",
+    {
+     "fold_ne": 4
+    },
+    null
+   ]
+  ],
+  "tests": {
+   "cv": {
+    "task": "social",
+    "window": 75,
+    "parts": [
+     [
+      "jan_social",
+      {
+       "fold_eq": 4
+      },
+      25
+     ],
+     [
+      "real",
+      {
+       "fold_eq": 4
+      },
+      25
+     ]
+    ]
+   }
+  },
+  "replay": "all",
+  "finetune": null,
+  "init_from": null,
+  "monitor": null,
+  "save_model": false,
+  "depends": [],
+  "person": null,
+  "export": false,
+  "variant": "all",
+  "prio": 0
+ },
+ {
+  "id": "cnn_w75rec_jan_s0_f4",
+  "group": "cv",
+  "task": "social",
+  "model": "harry_cnn",
+  "window": 75,
+  "recency": true,
+  "cand": "cnn_w75rec",
+  "recipe": "jan",
+  "seed": 0,
+  "fold": 4,
+  "power": 0.6,
+  "train": [
+   [
+    "jan_social",
+    {
+     "fold_ne": 4
+    },
+    null
+   ]
+  ],
+  "tests": {
+   "cv": {
+    "task": "social",
+    "window": 75,
+    "parts": [
+     [
+      "jan_social",
+      {
+       "fold_eq": 4
+      },
+      25
+     ],
+     [
+      "real",
+      {
+       "fold_eq": 4
+      },
+      25
+     ]
+    ]
+   }
+  },
+  "replay": "all",
+  "finetune": null,
+  "init_from": null,
+  "monitor": null,
+  "save_model": false,
+  "depends": [],
+  "person": null,
+  "export": false,
+  "variant": "all",
+  "prio": 0
+ },
+ {
+  "id": "cnn_w100_jan_s0_f4",
+  "group": "cv",
+  "task": "social",
+  "model": "harry_cnn",
+  "window": 100,
+  "recency": false,
+  "cand": "cnn_w100",
+  "recipe": "jan",
+  "seed": 0,
+  "fold": 4,
+  "power": 0.6,
+  "train": [
+   [
+    "jan_social",
+    {
+     "fold_ne": 4
+    },
+    null
+   ]
+  ],
+  "tests": {
+   "cv": {
+    "task": "social",
+    "window": 100,
+    "parts": [
+     [
+      "jan_social",
+      {
+       "fold_eq": 4
+      },
+      25
+     ],
+     [
+      "real",
+      {
+       "fold_eq": 4
+      },
+      25
+     ]
+    ]
+   }
+  },
+  "replay": "all",
+  "finetune": null,
+  "init_from": null,
+  "monitor": null,
+  "save_model": false,
+  "depends": [],
+  "person": null,
+  "export": false,
+  "variant": "all",
+  "prio": 0
+ },
+ {
+  "id": "cnn_w100rec_jan_s0_f4",
+  "group": "cv",
+  "task": "social",
+  "model": "harry_cnn",
+  "window": 100,
+  "recency": true,
+  "cand": "cnn_w100rec",
+  "recipe": "jan",
+  "seed": 0,
+  "fold": 4,
+  "power": 0.6,
+  "train": [
+   [
+    "jan_social",
+    {
+     "fold_ne": 4
+    },
+    null
+   ]
+  ],
+  "tests": {
+   "cv": {
+    "task": "social",
+    "window": 100,
+    "parts": [
+     [
+      "jan_social",
+      {
+       "fold_eq": 4
+      },
+      25
+     ],
+     [
+      "real",
+      {
+       "fold_eq": 4
+      },
+      25
+     ]
+    ]
+   }
+  },
+  "replay": "all",
+  "finetune": null,
+  "init_from": null,
+  "monitor": null,
+  "save_model": false,
+  "depends": [],
+  "person": null,
+  "export": false,
+  "variant": "all",
+  "prio": 0
+ },
+ {
+  "id": "rnn_w75_jan_s0_f4",
+  "group": "cv",
+  "task": "social",
+  "model": "harry_rnn",
+  "window": 75,
+  "recency": false,
+  "cand": "rnn_w75",
+  "recipe": "jan",
+  "seed": 0,
+  "fold": 4,
+  "power": 0.6,
+  "train": [
+   [
+    "jan_social",
+    {
+     "fold_ne": 4
+    },
+    null
+   ]
+  ],
+  "tests": {
+   "cv": {
+    "task": "social",
+    "window": 75,
+    "parts": [
+     [
+      "jan_social",
+      {
+       "fold_eq": 4
+      },
+      25
+     ],
+     [
+      "real",
+      {
+       "fold_eq": 4
+      },
+      25
+     ]
+    ]
+   }
+  },
+  "replay": "all",
+  "finetune": null,
+  "init_from": null,
+  "monitor": null,
+  "save_model": false,
+  "depends": [],
+  "person": null,
+  "export": false,
+  "variant": "all",
+  "prio": 0
+ },
+ {
+  "id": "cnn_w50_jan_s0_f5",
+  "group": "cv",
+  "task": "social",
+  "model": "harry_cnn",
+  "window": 50,
+  "recency": false,
+  "cand": "cnn_w50",
+  "recipe": "jan",
+  "seed": 0,
+  "fold": 5,
+  "power": 0.6,
+  "train": [
+   [
+    "jan_social",
+    {
+     "fold_ne": 5
+    },
+    null
+   ]
+  ],
+  "tests": {
+   "cv": {
+    "task": "social",
+    "window": 50,
+    "parts": [
+     [
+      "jan_social",
+      {
+       "fold_eq": 5
+      },
+      25
+     ],
+     [
+      "real",
+      {
+       "fold_eq": 5
+      },
+      25
+     ]
+    ]
+   }
+  },
+  "replay": "all",
+  "finetune": null,
+  "init_from": null,
+  "monitor": null,
+  "save_model": false,
+  "depends": [],
+  "person": null,
+  "export": false,
+  "variant": "all",
+  "prio": 0
+ },
+ {
+  "id": "cnn_w50rec_jan_s0_f5",
+  "group": "cv",
+  "task": "social",
+  "model": "harry_cnn",
+  "window": 50,
+  "recency": true,
+  "cand": "cnn_w50rec",
+  "recipe": "jan",
+  "seed": 0,
+  "fold": 5,
+  "power": 0.6,
+  "train": [
+   [
+    "jan_social",
+    {
+     "fold_ne": 5
+    },
+    null
+   ]
+  ],
+  "tests": {
+   "cv": {
+    "task": "social",
+    "window": 50,
+    "parts": [
+     [
+      "jan_social",
+      {
+       "fold_eq": 5
+      },
+      25
+     ],
+     [
+      "real",
+      {
+       "fold_eq": 5
+      },
+      25
+     ]
+    ]
+   }
+  },
+  "replay": "all",
+  "finetune": null,
+  "init_from": null,
+  "monitor": null,
+  "save_model": false,
+  "depends": [],
+  "person": null,
+  "export": false,
+  "variant": "all",
+  "prio": 0
+ },
+ {
+  "id": "cnn_w75_jan_s0_f5",
+  "group": "cv",
+  "task": "social",
+  "model": "harry_cnn",
+  "window": 75,
+  "recency": false,
+  "cand": "cnn_w75",
+  "recipe": "jan",
+  "seed": 0,
+  "fold": 5,
+  "power": 0.6,
+  "train": [
+   [
+    "jan_social",
+    {
+     "fold_ne": 5
+    },
+    null
+   ]
+  ],
+  "tests": {
+   "cv": {
+    "task": "social",
+    "window": 75,
+    "parts": [
+     [
+      "jan_social",
+      {
+       "fold_eq": 5
+      },
+      25
+     ],
+     [
+      "real",
+      {
+       "fold_eq": 5
+      },
+      25
+     ]
+    ]
+   }
+  },
+  "replay": "all",
+  "finetune": null,
+  "init_from": null,
+  "monitor": null,
+  "save_model": false,
+  "depends": [],
+  "person": null,
+  "export": false,
+  "variant": "all",
+  "prio": 0
+ },
+ {
+  "id": "cnn_w75rec_jan_s0_f5",
+  "group": "cv",
+  "task": "social",
+  "model": "harry_cnn",
+  "window": 75,
+  "recency": true,
+  "cand": "cnn_w75rec",
+  "recipe": "jan",
+  "seed": 0,
+  "fold": 5,
+  "power": 0.6,
+  "train": [
+   [
+    "jan_social",
+    {
+     "fold_ne": 5
+    },
+    null
+   ]
+  ],
+  "tests": {
+   "cv": {
+    "task": "social",
+    "window": 75,
+    "parts": [
+     [
+      "jan_social",
+      {
+       "fold_eq": 5
+      },
+      25
+     ],
+     [
+      "real",
+      {
+       "fold_eq": 5
+      },
+      25
+     ]
+    ]
+   }
+  },
+  "replay": "all",
+  "finetune": null,
+  "init_from": null,
+  "monitor": null,
+  "save_model": false,
+  "depends": [],
+  "person": null,
+  "export": false,
+  "variant": "all",
+  "prio": 0
+ },
+ {
+  "id": "cnn_w100_jan_s0_f5",
+  "group": "cv",
+  "task": "social",
+  "model": "harry_cnn",
+  "window": 100,
+  "recency": false,
+  "cand": "cnn_w100",
+  "recipe": "jan",
+  "seed": 0,
+  "fold": 5,
+  "power": 0.6,
+  "train": [
+   [
+    "jan_social",
+    {
+     "fold_ne": 5
+    },
+    null
+   ]
+  ],
+  "tests": {
+   "cv": {
+    "task": "social",
+    "window": 100,
+    "parts": [
+     [
+      "jan_social",
+      {
+       "fold_eq": 5
+      },
+      25
+     ],
+     [
+      "real",
+      {
+       "fold_eq": 5
+      },
+      25
+     ]
+    ]
+   }
+  },
+  "replay": "all",
+  "finetune": null,
+  "init_from": null,
+  "monitor": null,
+  "save_model": false,
+  "depends": [],
+  "person": null,
+  "export": false,
+  "variant": "all",
+  "prio": 0
+ },
+ {
+  "id": "cnn_w100rec_jan_s0_f5",
+  "group": "cv",
+  "task": "social",
+  "model": "harry_cnn",
+  "window": 100,
+  "recency": true,
+  "cand": "cnn_w100rec",
+  "recipe": "jan",
+  "seed": 0,
+  "fold": 5,
+  "power": 0.6,
+  "train": [
+   [
+    "jan_social",
+    {
+     "fold_ne": 5
+    },
+    null
+   ]
+  ],
+  "tests": {
+   "cv": {
+    "task": "social",
+    "window": 100,
+    "parts": [
+     [
+      "jan_social",
+      {
+       "fold_eq": 5
+      },
+      25
+     ],
+     [
+      "real",
+      {
+       "fold_eq": 5
+      },
+      25
+     ]
+    ]
+   }
+  },
+  "replay": "all",
+  "finetune": null,
+  "init_from": null,
+  "monitor": null,
+  "save_model": false,
+  "depends": [],
+  "person": null,
+  "export": false,
+  "variant": "all",
+  "prio": 0
+ },
+ {
+  "id": "rnn_w75_jan_s0_f5",
+  "group": "cv",
+  "task": "social",
+  "model": "harry_rnn",
+  "window": 75,
+  "recency": false,
+  "cand": "rnn_w75",
+  "recipe": "jan",
+  "seed": 0,
+  "fold": 5,
+  "power": 0.6,
+  "train": [
+   [
+    "jan_social",
+    {
+     "fold_ne": 5
+    },
+    null
+   ]
+  ],
+  "tests": {
+   "cv": {
+    "task": "social",
+    "window": 75,
+    "parts": [
+     [
+      "jan_social",
+      {
+       "fold_eq": 5
+      },
+      25
+     ],
+     [
+      "real",
+      {
+       "fold_eq": 5
+      },
+      25
+     ]
+    ]
+   }
+  },
+  "replay": "all",
+  "finetune": null,
+  "init_from": null,
+  "monitor": null,
+  "save_model": false,
+  "depends": [],
+  "person": null,
+  "export": false,
+  "variant": "all",
+  "prio": 0
+ },
+ {
+  "id": "cnn_w50_jan_s0_f6",
+  "group": "cv",
+  "task": "social",
+  "model": "harry_cnn",
+  "window": 50,
+  "recency": false,
+  "cand": "cnn_w50",
+  "recipe": "jan",
+  "seed": 0,
+  "fold": 6,
+  "power": 0.6,
+  "train": [
+   [
+    "jan_social",
+    {
+     "fold_ne": 6
+    },
+    null
+   ]
+  ],
+  "tests": {
+   "cv": {
+    "task": "social",
+    "window": 50,
+    "parts": [
+     [
+      "jan_social",
+      {
+       "fold_eq": 6
+      },
+      25
+     ],
+     [
+      "real",
+      {
+       "fold_eq": 6
+      },
+      25
+     ]
+    ]
+   }
+  },
+  "replay": "all",
+  "finetune": null,
+  "init_from": null,
+  "monitor": null,
+  "save_model": false,
+  "depends": [],
+  "person": null,
+  "export": false,
+  "variant": "all",
+  "prio": 0
+ },
+ {
+  "id": "cnn_w50rec_jan_s0_f6",
+  "group": "cv",
+  "task": "social",
+  "model": "harry_cnn",
+  "window": 50,
+  "recency": true,
+  "cand": "cnn_w50rec",
+  "recipe": "jan",
+  "seed": 0,
+  "fold": 6,
+  "power": 0.6,
+  "train": [
+   [
+    "jan_social",
+    {
+     "fold_ne": 6
+    },
+    null
+   ]
+  ],
+  "tests": {
+   "cv": {
+    "task": "social",
+    "window": 50,
+    "parts": [
+     [
+      "jan_social",
+      {
+       "fold_eq": 6
+      },
+      25
+     ],
+     [
+      "real",
+      {
+       "fold_eq": 6
+      },
+      25
+     ]
+    ]
+   }
+  },
+  "replay": "all",
+  "finetune": null,
+  "init_from": null,
+  "monitor": null,
+  "save_model": false,
+  "depends": [],
+  "person": null,
+  "export": false,
+  "variant": "all",
+  "prio": 0
+ },
+ {
+  "id": "cnn_w75_jan_s0_f6",
+  "group": "cv",
+  "task": "social",
+  "model": "harry_cnn",
+  "window": 75,
+  "recency": false,
+  "cand": "cnn_w75",
+  "recipe": "jan",
+  "seed": 0,
+  "fold": 6,
+  "power": 0.6,
+  "train": [
+   [
+    "jan_social",
+    {
+     "fold_ne": 6
+    },
+    null
+   ]
+  ],
+  "tests": {
+   "cv": {
+    "task": "social",
+    "window": 75,
+    "parts": [
+     [
+      "jan_social",
+      {
+       "fold_eq": 6
+      },
+      25
+     ],
+     [
+      "real",
+      {
+       "fold_eq": 6
+      },
+      25
+     ]
+    ]
+   }
+  },
+  "replay": "all",
+  "finetune": null,
+  "init_from": null,
+  "monitor": null,
+  "save_model": false,
+  "depends": [],
+  "person": null,
+  "export": false,
+  "variant": "all",
+  "prio": 0
+ },
+ {
+  "id": "cnn_w75rec_jan_s0_f6",
+  "group": "cv",
+  "task": "social",
+  "model": "harry_cnn",
+  "window": 75,
+  "recency": true,
+  "cand": "cnn_w75rec",
+  "recipe": "jan",
+  "seed": 0,
+  "fold": 6,
+  "power": 0.6,
+  "train": [
+   [
+    "jan_social",
+    {
+     "fold_ne": 6
+    },
+    null
+   ]
+  ],
+  "tests": {
+   "cv": {
+    "task": "social",
+    "window": 75,
+    "parts": [
+     [
+      "jan_social",
+      {
+       "fold_eq": 6
+      },
+      25
+     ],
+     [
+      "real",
+      {
+       "fold_eq": 6
+      },
+      25
+     ]
+    ]
+   }
+  },
+  "replay": "all",
+  "finetune": null,
+  "init_from": null,
+  "monitor": null,
+  "save_model": false,
+  "depends": [],
+  "person": null,
+  "export": false,
+  "variant": "all",
+  "prio": 0
+ },
+ {
+  "id": "cnn_w100_jan_s0_f6",
+  "group": "cv",
+  "task": "social",
+  "model": "harry_cnn",
+  "window": 100,
+  "recency": false,
+  "cand": "cnn_w100",
+  "recipe": "jan",
+  "seed": 0,
+  "fold": 6,
+  "power": 0.6,
+  "train": [
+   [
+    "jan_social",
+    {
+     "fold_ne": 6
+    },
+    null
+   ]
+  ],
+  "tests": {
+   "cv": {
+    "task": "social",
+    "window": 100,
+    "parts": [
+     [
+      "jan_social",
+      {
+       "fold_eq": 6
+      },
+      25
+     ],
+     [
+      "real",
+      {
+       "fold_eq": 6
+      },
+      25
+     ]
+    ]
+   }
+  },
+  "replay": "all",
+  "finetune": null,
+  "init_from": null,
+  "monitor": null,
+  "save_model": false,
+  "depends": [],
+  "person": null,
+  "export": false,
+  "variant": "all",
+  "prio": 0
+ },
+ {
+  "id": "cnn_w100rec_jan_s0_f6",
+  "group": "cv",
+  "task": "social",
+  "model": "harry_cnn",
+  "window": 100,
+  "recency": true,
+  "cand": "cnn_w100rec",
+  "recipe": "jan",
+  "seed": 0,
+  "fold": 6,
+  "power": 0.6,
+  "train": [
+   [
+    "jan_social",
+    {
+     "fold_ne": 6
+    },
+    null
+   ]
+  ],
+  "tests": {
+   "cv": {
+    "task": "social",
+    "window": 100,
+    "parts": [
+     [
+      "jan_social",
+      {
+       "fold_eq": 6
+      },
+      25
+     ],
+     [
+      "real",
+      {
+       "fold_eq": 6
+      },
+      25
+     ]
+    ]
+   }
+  },
+  "replay": "all",
+  "finetune": null,
+  "init_from": null,
+  "monitor": null,
+  "save_model": false,
+  "depends": [],
+  "person": null,
+  "export": false,
+  "variant": "all",
+  "prio": 0
+ },
+ {
+  "id": "rnn_w75_jan_s0_f6",
+  "group": "cv",
+  "task": "social",
+  "model": "harry_rnn",
+  "window": 75,
+  "recency": false,
+  "cand": "rnn_w75",
+  "recipe": "jan",
+  "seed": 0,
+  "fold": 6,
+  "power": 0.6,
+  "train": [
+   [
+    "jan_social",
+    {
+     "fold_ne": 6
+    },
+    null
+   ]
+  ],
+  "tests": {
+   "cv": {
+    "task": "social",
+    "window": 75,
+    "parts": [
+     [
+      "jan_social",
+      {
+       "fold_eq": 6
+      },
+      25
+     ],
+     [
+      "real",
+      {
+       "fold_eq": 6
+      },
+      25
+     ]
+    ]
+   }
+  },
+  "replay": "all",
+  "finetune": null,
+  "init_from": null,
+  "monitor": null,
+  "save_model": false,
+  "depends": [],
+  "person": null,
+  "export": false,
+  "variant": "all",
+  "prio": 0
+ },
+ {
+  "id": "cnn_w50_jan_s0_f7",
+  "group": "cv",
+  "task": "social",
+  "model": "harry_cnn",
+  "window": 50,
+  "recency": false,
+  "cand": "cnn_w50",
+  "recipe": "jan",
+  "seed": 0,
+  "fold": 7,
+  "power": 0.6,
+  "train": [
+   [
+    "jan_social",
+    {
+     "fold_ne": 7
+    },
+    null
+   ]
+  ],
+  "tests": {
+   "cv": {
+    "task": "social",
+    "window": 50,
+    "parts": [
+     [
+      "jan_social",
+      {
+       "fold_eq": 7
+      },
+      25
+     ],
+     [
+      "real",
+      {
+       "fold_eq": 7
+      },
+      25
+     ]
+    ]
+   }
+  },
+  "replay": "all",
+  "finetune": null,
+  "init_from": null,
+  "monitor": null,
+  "save_model": false,
+  "depends": [],
+  "person": null,
+  "export": false,
+  "variant": "all",
+  "prio": 0
+ },
+ {
+  "id": "cnn_w50rec_jan_s0_f7",
+  "group": "cv",
+  "task": "social",
+  "model": "harry_cnn",
+  "window": 50,
+  "recency": true,
+  "cand": "cnn_w50rec",
+  "recipe": "jan",
+  "seed": 0,
+  "fold": 7,
+  "power": 0.6,
+  "train": [
+   [
+    "jan_social",
+    {
+     "fold_ne": 7
+    },
+    null
+   ]
+  ],
+  "tests": {
+   "cv": {
+    "task": "social",
+    "window": 50,
+    "parts": [
+     [
+      "jan_social",
+      {
+       "fold_eq": 7
+      },
+      25
+     ],
+     [
+      "real",
+      {
+       "fold_eq": 7
+      },
+      25
+     ]
+    ]
+   }
+  },
+  "replay": "all",
+  "finetune": null,
+  "init_from": null,
+  "monitor": null,
+  "save_model": false,
+  "depends": [],
+  "person": null,
+  "export": false,
+  "variant": "all",
+  "prio": 0
+ },
+ {
+  "id": "cnn_w75_jan_s0_f7",
+  "group": "cv",
+  "task": "social",
+  "model": "harry_cnn",
+  "window": 75,
+  "recency": false,
+  "cand": "cnn_w75",
+  "recipe": "jan",
+  "seed": 0,
+  "fold": 7,
+  "power": 0.6,
+  "train": [
+   [
+    "jan_social",
+    {
+     "fold_ne": 7
+    },
+    null
+   ]
+  ],
+  "tests": {
+   "cv": {
+    "task": "social",
+    "window": 75,
+    "parts": [
+     [
+      "jan_social",
+      {
+       "fold_eq": 7
+      },
+      25
+     ],
+     [
+      "real",
+      {
+       "fold_eq": 7
+      },
+      25
+     ]
+    ]
+   }
+  },
+  "replay": "all",
+  "finetune": null,
+  "init_from": null,
+  "monitor": null,
+  "save_model": false,
+  "depends": [],
+  "person": null,
+  "export": false,
+  "variant": "all",
+  "prio": 0
+ },
+ {
+  "id": "cnn_w75rec_jan_s0_f7",
+  "group": "cv",
+  "task": "social",
+  "model": "harry_cnn",
+  "window": 75,
+  "recency": true,
+  "cand": "cnn_w75rec",
+  "recipe": "jan",
+  "seed": 0,
+  "fold": 7,
+  "power": 0.6,
+  "train": [
+   [
+    "jan_social",
+    {
+     "fold_ne": 7
+    },
+    null
+   ]
+  ],
+  "tests": {
+   "cv": {
+    "task": "social",
+    "window": 75,
+    "parts": [
+     [
+      "jan_social",
+      {
+       "fold_eq": 7
+      },
+      25
+     ],
+     [
+      "real",
+      {
+       "fold_eq": 7
+      },
+      25
+     ]
+    ]
+   }
+  },
+  "replay": "all",
+  "finetune": null,
+  "init_from": null,
+  "monitor": null,
+  "save_model": false,
+  "depends": [],
+  "person": null,
+  "export": false,
+  "variant": "all",
+  "prio": 0
+ },
+ {
+  "id": "cnn_w100_jan_s0_f7",
+  "group": "cv",
+  "task": "social",
+  "model": "harry_cnn",
+  "window": 100,
+  "recency": false,
+  "cand": "cnn_w100",
+  "recipe": "jan",
+  "seed": 0,
+  "fold": 7,
+  "power": 0.6,
+  "train": [
+   [
+    "jan_social",
+    {
+     "fold_ne": 7
+    },
+    null
+   ]
+  ],
+  "tests": {
+   "cv": {
+    "task": "social",
+    "window": 100,
+    "parts": [
+     [
+      "jan_social",
+      {
+       "fold_eq": 7
+      },
+      25
+     ],
+     [
+      "real",
+      {
+       "fold_eq": 7
+      },
+      25
+     ]
+    ]
+   }
+  },
+  "replay": "all",
+  "finetune": null,
+  "init_from": null,
+  "monitor": null,
+  "save_model": false,
+  "depends": [],
+  "person": null,
+  "export": false,
+  "variant": "all",
+  "prio": 0
+ },
+ {
+  "id": "cnn_w100rec_jan_s0_f7",
+  "group": "cv",
+  "task": "social",
+  "model": "harry_cnn",
+  "window": 100,
+  "recency": true,
+  "cand": "cnn_w100rec",
+  "recipe": "jan",
+  "seed": 0,
+  "fold": 7,
+  "power": 0.6,
+  "train": [
+   [
+    "jan_social",
+    {
+     "fold_ne": 7
+    },
+    null
+   ]
+  ],
+  "tests": {
+   "cv": {
+    "task": "social",
+    "window": 100,
+    "parts": [
+     [
+      "jan_social",
+      {
+       "fold_eq": 7
+      },
+      25
+     ],
+     [
+      "real",
+      {
+       "fold_eq": 7
+      },
+      25
+     ]
+    ]
+   }
+  },
+  "replay": "all",
+  "finetune": null,
+  "init_from": null,
+  "monitor": null,
+  "save_model": false,
+  "depends": [],
+  "person": null,
+  "export": false,
+  "variant": "all",
+  "prio": 0
+ },
+ {
+  "id": "rnn_w75_jan_s0_f7",
+  "group": "cv",
+  "task": "social",
+  "model": "harry_rnn",
+  "window": 75,
+  "recency": false,
+  "cand": "rnn_w75",
+  "recipe": "jan",
+  "seed": 0,
+  "fold": 7,
+  "power": 0.6,
+  "train": [
+   [
+    "jan_social",
+    {
+     "fold_ne": 7
+    },
+    null
+   ]
+  ],
+  "tests": {
+   "cv": {
+    "task": "social",
+    "window": 75,
+    "parts": [
+     [
+      "jan_social",
+      {
+       "fold_eq": 7
+      },
+      25
+     ],
+     [
+      "real",
+      {
+       "fold_eq": 7
+      },
+      25
+     ]
+    ]
+   }
+  },
+  "replay": "all",
+  "finetune": null,
+  "init_from": null,
+  "monitor": null,
+  "save_model": false,
+  "depends": [],
+  "person": null,
+  "export": false,
+  "variant": "all",
+  "prio": 0
+ },
+ {
+  "id": "cnn_w50_jan_s0_f8",
+  "group": "cv",
+  "task": "social",
+  "model": "harry_cnn",
+  "window": 50,
+  "recency": false,
+  "cand": "cnn_w50",
+  "recipe": "jan",
+  "seed": 0,
+  "fold": 8,
+  "power": 0.6,
+  "train": [
+   [
+    "jan_social",
+    {
+     "fold_ne": 8
+    },
+    null
+   ]
+  ],
+  "tests": {
+   "cv": {
+    "task": "social",
+    "window": 50,
+    "parts": [
+     [
+      "jan_social",
+      {
+       "fold_eq": 8
+      },
+      25
+     ],
+     [
+      "real",
+      {
+       "fold_eq": 8
+      },
+      25
+     ]
+    ]
+   }
+  },
+  "replay": "all",
+  "finetune": null,
+  "init_from": null,
+  "monitor": null,
+  "save_model": false,
+  "depends": [],
+  "person": null,
+  "export": false,
+  "variant": "all",
+  "prio": 0
+ },
+ {
+  "id": "cnn_w50rec_jan_s0_f8",
+  "group": "cv",
+  "task": "social",
+  "model": "harry_cnn",
+  "window": 50,
+  "recency": true,
+  "cand": "cnn_w50rec",
+  "recipe": "jan",
+  "seed": 0,
+  "fold": 8,
+  "power": 0.6,
+  "train": [
+   [
+    "jan_social",
+    {
+     "fold_ne": 8
+    },
+    null
+   ]
+  ],
+  "tests": {
+   "cv": {
+    "task": "social",
+    "window": 50,
+    "parts": [
+     [
+      "jan_social",
+      {
+       "fold_eq": 8
+      },
+      25
+     ],
+     [
+      "real",
+      {
+       "fold_eq": 8
+      },
+      25
+     ]
+    ]
+   }
+  },
+  "replay": "all",
+  "finetune": null,
+  "init_from": null,
+  "monitor": null,
+  "save_model": false,
+  "depends": [],
+  "person": null,
+  "export": false,
+  "variant": "all",
+  "prio": 0
+ },
+ {
+  "id": "cnn_w75_jan_s0_f8",
+  "group": "cv",
+  "task": "social",
+  "model": "harry_cnn",
+  "window": 75,
+  "recency": false,
+  "cand": "cnn_w75",
+  "recipe": "jan",
+  "seed": 0,
+  "fold": 8,
+  "power": 0.6,
+  "train": [
+   [
+    "jan_social",
+    {
+     "fold_ne": 8
+    },
+    null
+   ]
+  ],
+  "tests": {
+   "cv": {
+    "task": "social",
+    "window": 75,
+    "parts": [
+     [
+      "jan_social",
+      {
+       "fold_eq": 8
+      },
+      25
+     ],
+     [
+      "real",
+      {
+       "fold_eq": 8
+      },
+      25
+     ]
+    ]
+   }
+  },
+  "replay": "all",
+  "finetune": null,
+  "init_from": null,
+  "monitor": null,
+  "save_model": false,
+  "depends": [],
+  "person": null,
+  "export": false,
+  "variant": "all",
+  "prio": 0
+ },
+ {
+  "id": "cnn_w75rec_jan_s0_f8",
+  "group": "cv",
+  "task": "social",
+  "model": "harry_cnn",
+  "window": 75,
+  "recency": true,
+  "cand": "cnn_w75rec",
+  "recipe": "jan",
+  "seed": 0,
+  "fold": 8,
+  "power": 0.6,
+  "train": [
+   [
+    "jan_social",
+    {
+     "fold_ne": 8
+    },
+    null
+   ]
+  ],
+  "tests": {
+   "cv": {
+    "task": "social",
+    "window": 75,
+    "parts": [
+     [
+      "jan_social",
+      {
+       "fold_eq": 8
+      },
+      25
+     ],
+     [
+      "real",
+      {
+       "fold_eq": 8
+      },
+      25
+     ]
+    ]
+   }
+  },
+  "replay": "all",
+  "finetune": null,
+  "init_from": null,
+  "monitor": null,
+  "save_model": false,
+  "depends": [],
+  "person": null,
+  "export": false,
+  "variant": "all",
+  "prio": 0
+ },
+ {
+  "id": "cnn_w100_jan_s0_f8",
+  "group": "cv",
+  "task": "social",
+  "model": "harry_cnn",
+  "window": 100,
+  "recency": false,
+  "cand": "cnn_w100",
+  "recipe": "jan",
+  "seed": 0,
+  "fold": 8,
+  "power": 0.6,
+  "train": [
+   [
+    "jan_social",
+    {
+     "fold_ne": 8
+    },
+    null
+   ]
+  ],
+  "tests": {
+   "cv": {
+    "task": "social",
+    "window": 100,
+    "parts": [
+     [
+      "jan_social",
+      {
+       "fold_eq": 8
+      },
+      25
+     ],
+     [
+      "real",
+      {
+       "fold_eq": 8
+      },
+      25
+     ]
+    ]
+   }
+  },
+  "replay": "all",
+  "finetune": null,
+  "init_from": null,
+  "monitor": null,
+  "save_model": false,
+  "depends": [],
+  "person": null,
+  "export": false,
+  "variant": "all",
+  "prio": 0
+ },
+ {
+  "id": "cnn_w100rec_jan_s0_f8",
+  "group": "cv",
+  "task": "social",
+  "model": "harry_cnn",
+  "window": 100,
+  "recency": true,
+  "cand": "cnn_w100rec",
+  "recipe": "jan",
+  "seed": 0,
+  "fold": 8,
+  "power": 0.6,
+  "train": [
+   [
+    "jan_social",
+    {
+     "fold_ne": 8
+    },
+    null
+   ]
+  ],
+  "tests": {
+   "cv": {
+    "task": "social",
+    "window": 100,
+    "parts": [
+     [
+      "jan_social",
+      {
+       "fold_eq": 8
+      },
+      25
+     ],
+     [
+      "real",
+      {
+       "fold_eq": 8
+      },
+      25
+     ]
+    ]
+   }
+  },
+  "replay": "all",
+  "finetune": null,
+  "init_from": null,
+  "monitor": null,
+  "save_model": false,
+  "depends": [],
+  "person": null,
+  "export": false,
+  "variant": "all",
+  "prio": 0
+ },
+ {
+  "id": "rnn_w75_jan_s0_f8",
+  "group": "cv",
+  "task": "social",
+  "model": "harry_rnn",
+  "window": 75,
+  "recency": false,
+  "cand": "rnn_w75",
+  "recipe": "jan",
+  "seed": 0,
+  "fold": 8,
+  "power": 0.6,
+  "train": [
+   [
+    "jan_social",
+    {
+     "fold_ne": 8
+    },
+    null
+   ]
+  ],
+  "tests": {
+   "cv": {
+    "task": "social",
+    "window": 75,
+    "parts": [
+     [
+      "jan_social",
+      {
+       "fold_eq": 8
+      },
+      25
+     ],
+     [
+      "real",
+      {
+       "fold_eq": 8
+      },
+      25
+     ]
+    ]
+   }
+  },
+  "replay": "all",
+  "finetune": null,
+  "init_from": null,
+  "monitor": null,
+  "save_model": false,
+  "depends": [],
+  "person": null,
+  "export": false,
+  "variant": "all",
+  "prio": 0
+ },
+ {
+  "id": "cnn_w50_jan_s0_f9",
+  "group": "cv",
+  "task": "social",
+  "model": "harry_cnn",
+  "window": 50,
+  "recency": false,
+  "cand": "cnn_w50",
+  "recipe": "jan",
+  "seed": 0,
+  "fold": 9,
+  "power": 0.6,
+  "train": [
+   [
+    "jan_social",
+    {
+     "fold_ne": 9
+    },
+    null
+   ]
+  ],
+  "tests": {
+   "cv": {
+    "task": "social",
+    "window": 50,
+    "parts": [
+     [
+      "jan_social",
+      {
+       "fold_eq": 9
+      },
+      25
+     ],
+     [
+      "real",
+      {
+       "fold_eq": 9
+      },
+      25
+     ]
+    ]
+   }
+  },
+  "replay": "all",
+  "finetune": null,
+  "init_from": null,
+  "monitor": null,
+  "save_model": false,
+  "depends": [],
+  "person": null,
+  "export": false,
+  "variant": "all",
+  "prio": 0
+ },
+ {
+  "id": "cnn_w50rec_jan_s0_f9",
+  "group": "cv",
+  "task": "social",
+  "model": "harry_cnn",
+  "window": 50,
+  "recency": true,
+  "cand": "cnn_w50rec",
+  "recipe": "jan",
+  "seed": 0,
+  "fold": 9,
+  "power": 0.6,
+  "train": [
+   [
+    "jan_social",
+    {
+     "fold_ne": 9
+    },
+    null
+   ]
+  ],
+  "tests": {
+   "cv": {
+    "task": "social",
+    "window": 50,
+    "parts": [
+     [
+      "jan_social",
+      {
+       "fold_eq": 9
+      },
+      25
+     ],
+     [
+      "real",
+      {
+       "fold_eq": 9
+      },
+      25
+     ]
+    ]
+   }
+  },
+  "replay": "all",
+  "finetune": null,
+  "init_from": null,
+  "monitor": null,
+  "save_model": false,
+  "depends": [],
+  "person": null,
+  "export": false,
+  "variant": "all",
+  "prio": 0
+ },
+ {
+  "id": "cnn_w75_jan_s0_f9",
+  "group": "cv",
+  "task": "social",
+  "model": "harry_cnn",
+  "window": 75,
+  "recency": false,
+  "cand": "cnn_w75",
+  "recipe": "jan",
+  "seed": 0,
+  "fold": 9,
+  "power": 0.6,
+  "train": [
+   [
+    "jan_social",
+    {
+     "fold_ne": 9
+    },
+    null
+   ]
+  ],
+  "tests": {
+   "cv": {
+    "task": "social",
+    "window": 75,
+    "parts": [
+     [
+      "jan_social",
+      {
+       "fold_eq": 9
+      },
+      25
+     ],
+     [
+      "real",
+      {
+       "fold_eq": 9
+      },
+      25
+     ]
+    ]
+   }
+  },
+  "replay": "all",
+  "finetune": null,
+  "init_from": null,
+  "monitor": null,
+  "save_model": false,
+  "depends": [],
+  "person": null,
+  "export": false,
+  "variant": "all",
+  "prio": 0
+ },
+ {
+  "id": "cnn_w75rec_jan_s0_f9",
+  "group": "cv",
+  "task": "social",
+  "model": "harry_cnn",
+  "window": 75,
+  "recency": true,
+  "cand": "cnn_w75rec",
+  "recipe": "jan",
+  "seed": 0,
+  "fold": 9,
+  "power": 0.6,
+  "train": [
+   [
+    "jan_social",
+    {
+     "fold_ne": 9
+    },
+    null
+   ]
+  ],
+  "tests": {
+   "cv": {
+    "task": "social",
+    "window": 75,
+    "parts": [
+     [
+      "jan_social",
+      {
+       "fold_eq": 9
+      },
+      25
+     ],
+     [
+      "real",
+      {
+       "fold_eq": 9
+      },
+      25
+     ]
+    ]
+   }
+  },
+  "replay": "all",
+  "finetune": null,
+  "init_from": null,
+  "monitor": null,
+  "save_model": false,
+  "depends": [],
+  "person": null,
+  "export": false,
+  "variant": "all",
+  "prio": 0
+ },
+ {
+  "id": "cnn_w100_jan_s0_f9",
+  "group": "cv",
+  "task": "social",
+  "model": "harry_cnn",
+  "window": 100,
+  "recency": false,
+  "cand": "cnn_w100",
+  "recipe": "jan",
+  "seed": 0,
+  "fold": 9,
+  "power": 0.6,
+  "train": [
+   [
+    "jan_social",
+    {
+     "fold_ne": 9
+    },
+    null
+   ]
+  ],
+  "tests": {
+   "cv": {
+    "task": "social",
+    "window": 100,
+    "parts": [
+     [
+      "jan_social",
+      {
+       "fold_eq": 9
+      },
+      25
+     ],
+     [
+      "real",
+      {
+       "fold_eq": 9
+      },
+      25
+     ]
+    ]
+   }
+  },
+  "replay": "all",
+  "finetune": null,
+  "init_from": null,
+  "monitor": null,
+  "save_model": false,
+  "depends": [],
+  "person": null,
+  "export": false,
+  "variant": "all",
+  "prio": 0
+ },
+ {
+  "id": "cnn_w100rec_jan_s0_f9",
+  "group": "cv",
+  "task": "social",
+  "model": "harry_cnn",
+  "window": 100,
+  "recency": true,
+  "cand": "cnn_w100rec",
+  "recipe": "jan",
+  "seed": 0,
+  "fold": 9,
+  "power": 0.6,
+  "train": [
+   [
+    "jan_social",
+    {
+     "fold_ne": 9
+    },
+    null
+   ]
+  ],
+  "tests": {
+   "cv": {
+    "task": "social",
+    "window": 100,
+    "parts": [
+     [
+      "jan_social",
+      {
+       "fold_eq": 9
+      },
+      25
+     ],
+     [
+      "real",
+      {
+       "fold_eq": 9
+      },
+      25
+     ]
+    ]
+   }
+  },
+  "replay": "all",
+  "finetune": null,
+  "init_from": null,
+  "monitor": null,
+  "save_model": false,
+  "depends": [],
+  "person": null,
+  "export": false,
+  "variant": "all",
+  "prio": 0
+ },
+ {
+  "id": "rnn_w75_jan_s0_f9",
+  "group": "cv",
+  "task": "social",
+  "model": "harry_rnn",
+  "window": 75,
+  "recency": false,
+  "cand": "rnn_w75",
+  "recipe": "jan",
+  "seed": 0,
+  "fold": 9,
+  "power": 0.6,
+  "train": [
+   [
+    "jan_social",
+    {
+     "fold_ne": 9
+    },
+    null
+   ]
+  ],
+  "tests": {
+   "cv": {
+    "task": "social",
+    "window": 75,
+    "parts": [
+     [
+      "jan_social",
+      {
+       "fold_eq": 9
+      },
+      25
+     ],
+     [
+      "real",
+      {
+       "fold_eq": 9
+      },
+      25
+     ]
+    ]
+   }
+  },
+  "replay": "all",
+  "finetune": null,
+  "init_from": null,
+  "monitor": null,
+  "save_model": false,
+  "depends": [],
+  "person": null,
+  "export": false,
+  "variant": "all",
+  "prio": 0
+ }
+]

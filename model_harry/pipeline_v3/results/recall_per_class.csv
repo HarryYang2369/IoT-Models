@@ -1,0 +1,784 @@
+task,cfg,seed,fold,scope,cls,recall
+har,v3 jan,0,0,jan,sittingStanding,99.79166666666667
+har,v3 jan,0,0,jan,lyingBack,100.0
+har,v3 jan,0,0,jan,lyingLeft,100.0
+har,v3 jan,0,0,jan,lyingRight,100.0
+har,v3 jan,0,0,jan,lyingStomach,100.0
+har,v3 jan,0,0,jan,normalWalking,96.15384615384616
+har,v3 jan,0,0,jan,shuffleWalking,85.23206751054853
+har,v3 jan,0,0,jan,ascending,84.81012658227847
+har,v3 jan,0,0,jan,descending,89.70588235294117
+har,v3 jan,0,0,jan,running,94.53781512605042
+har,v3 jan,0,0,jan,miscMovement,72.03389830508475
+har,v3 jan,0,1,jan,sittingStanding,100.0
+har,v3 jan,0,1,jan,lyingBack,100.0
+har,v3 jan,0,1,jan,lyingLeft,100.0
+har,v3 jan,0,1,jan,lyingRight,100.0
+har,v3 jan,0,1,jan,lyingStomach,95.18072289156626
+har,v3 jan,0,1,jan,normalWalking,78.05907172995781
+har,v3 jan,0,1,jan,shuffleWalking,93.56223175965665
+har,v3 jan,0,1,jan,ascending,97.43589743589743
+har,v3 jan,0,1,jan,descending,98.07692307692307
+har,v3 jan,0,1,jan,running,95.2991452991453
+har,v3 jan,0,1,jan,miscMovement,76.05042016806722
+har,v3 jan,0,2,jan,sittingStanding,100.0
+har,v3 jan,0,2,jan,lyingBack,100.0
+har,v3 jan,0,2,jan,lyingLeft,100.0
+har,v3 jan,0,2,jan,lyingRight,100.0
+har,v3 jan,0,2,jan,lyingStomach,100.0
+har,v3 jan,0,2,jan,normalWalking,89.36170212765957
+har,v3 jan,0,2,jan,shuffleWalking,86.1344537815126
+har,v3 jan,0,2,jan,ascending,92.37288135593221
+har,v3 jan,0,2,jan,descending,91.42857142857143
+har,v3 jan,0,2,jan,running,96.58119658119658
+har,v3 jan,0,2,jan,miscMovement,77.37556561085974
+har,v3 jan,0,3,jan,sittingStanding,100.0
+har,v3 jan,0,3,jan,lyingBack,100.0
+har,v3 jan,0,3,jan,lyingLeft,100.0
+har,v3 jan,0,3,jan,lyingRight,100.0
+har,v3 jan,0,3,jan,lyingStomach,100.0
+har,v3 jan,0,3,jan,normalWalking,80.59071729957806
+har,v3 jan,0,3,jan,shuffleWalking,86.07594936708861
+har,v3 jan,0,3,jan,ascending,88.73873873873875
+har,v3 jan,0,3,jan,descending,90.9090909090909
+har,v3 jan,0,3,jan,running,97.86324786324786
+har,v3 jan,0,3,jan,miscMovement,75.44642857142857
+har,v3 jan,0,4,jan,sittingStanding,100.0
+har,v3 jan,0,4,jan,lyingBack,100.0
+har,v3 jan,0,4,jan,lyingLeft,100.0
+har,v3 jan,0,4,jan,lyingRight,100.0
+har,v3 jan,0,4,jan,lyingStomach,100.0
+har,v3 jan,0,4,jan,normalWalking,93.61702127659575
+har,v3 jan,0,4,jan,shuffleWalking,98.66071428571429
+har,v3 jan,0,4,jan,ascending,85.71428571428571
+har,v3 jan,0,4,jan,descending,95.69377990430623
+har,v3 jan,0,4,jan,running,94.49152542372882
+har,v3 jan,0,4,jan,miscMovement,69.81981981981981
+har,v3 jan,0,5,jan,sittingStanding,93.33333333333333
+har,v3 jan,0,5,jan,lyingBack,100.0
+har,v3 jan,0,5,jan,lyingLeft,100.0
+har,v3 jan,0,5,jan,lyingRight,100.0
+har,v3 jan,0,5,jan,lyingStomach,100.0
+har,v3 jan,0,5,jan,normalWalking,91.84549356223177
+har,v3 jan,0,5,jan,shuffleWalking,80.09049773755656
+har,v3 jan,0,5,jan,ascending,91.92825112107623
+har,v3 jan,0,5,jan,descending,98.55072463768117
+har,v3 jan,0,5,jan,running,98.72881355932203
+har,v3 jan,0,5,jan,miscMovement,71.62162162162163
+har,v3 jan,0,6,jan,sittingStanding,89.43089430894308
+har,v3 jan,0,6,jan,lyingBack,100.0
+har,v3 jan,0,6,jan,lyingLeft,100.0
+har,v3 jan,0,6,jan,lyingRight,100.0
+har,v3 jan,0,6,jan,lyingStomach,100.0
+har,v3 jan,0,6,jan,normalWalking,81.77777777777779
+har,v3 jan,0,6,jan,shuffleWalking,90.45454545454545
+har,v3 jan,0,6,jan,ascending,98.65470852017937
+har,v3 jan,0,6,jan,descending,92.26804123711341
+har,v3 jan,0,6,jan,running,96.61016949152543
+har,v3 jan,0,6,jan,miscMovement,71.30044843049326
+har,v3 jan,0,7,jan,sittingStanding,99.78813559322035
+har,v3 jan,0,7,jan,lyingBack,100.0
+har,v3 jan,0,7,jan,lyingLeft,100.0
+har,v3 jan,0,7,jan,lyingRight,100.0
+har,v3 jan,0,7,jan,lyingStomach,100.0
+har,v3 jan,0,7,jan,normalWalking,96.3963963963964
+har,v3 jan,0,7,jan,shuffleWalking,75.9090909090909
+har,v3 jan,0,7,jan,ascending,97.76785714285714
+har,v3 jan,0,7,jan,descending,93.75
+har,v3 jan,0,7,jan,running,96.56652360515021
+har,v3 jan,0,7,jan,miscMovement,81.77966101694916
+har,v3 jan,0,8,jan,sittingStanding,100.0
+har,v3 jan,0,8,jan,lyingBack,100.0
+har,v3 jan,0,8,jan,lyingLeft,100.0
+har,v3 jan,0,8,jan,lyingRight,100.0
+har,v3 jan,0,8,jan,lyingStomach,100.0
+har,v3 jan,0,8,jan,normalWalking,90.09009009009009
+har,v3 jan,0,8,jan,shuffleWalking,94.14414414414415
+har,v3 jan,0,8,jan,ascending,98.66071428571429
+har,v3 jan,0,8,jan,descending,85.12820512820512
+har,v3 jan,0,8,jan,running,99.0909090909091
+har,v3 jan,0,8,jan,miscMovement,78.9237668161435
+har,v3 jan,0,8,s2503795,sittingStanding,76.0204081632653
+har,v3 jan,0,8,s2503795,lyingBack,90.47619047619048
+har,v3 jan,0,8,s2503795,lyingLeft,92.85714285714286
+har,v3 jan,0,8,s2503795,lyingRight,100.0
+har,v3 jan,0,8,s2503795,lyingStomach,98.80952380952381
+har,v3 jan,0,8,s2503795,normalWalking,100.0
+har,v3 jan,0,8,s2503795,shuffleWalking,92.85714285714286
+har,v3 jan,0,8,s2503795,ascending,100.0
+har,v3 jan,0,8,s2503795,descending,100.0
+har,v3 jan,0,8,s2503795,running,100.0
+har,v3 jan,0,8,s2503795,miscMovement,78.57142857142857
+har,v3 jan,0,9,jan,sittingStanding,91.15913555992141
+har,v3 jan,0,9,jan,lyingBack,100.0
+har,v3 jan,0,9,jan,lyingLeft,100.0
+har,v3 jan,0,9,jan,lyingRight,100.0
+har,v3 jan,0,9,jan,lyingStomach,100.0
+har,v3 jan,0,9,jan,normalWalking,97.32142857142857
+har,v3 jan,0,9,jan,shuffleWalking,95.47511312217195
+har,v3 jan,0,9,jan,ascending,89.59276018099548
+har,v3 jan,0,9,jan,descending,93.84615384615384
+har,v3 jan,0,9,jan,running,99.55156950672645
+har,v3 jan,0,9,jan,miscMovement,70.98214285714286
+har,v3 jan,0,9,s2952925,sittingStanding,63.730569948186535
+har,v3 jan,0,9,s2952925,lyingBack,74.35897435897436
+har,v3 jan,0,9,s2952925,lyingLeft,50.0
+har,v3 jan,0,9,s2952925,lyingRight,89.74358974358975
+har,v3 jan,0,9,s2952925,lyingStomach,100.0
+har,v3 jan,0,9,s2952925,normalWalking,100.0
+har,v3 jan,0,9,s2952925,shuffleWalking,100.0
+har,v3 jan,0,9,s2952925,ascending,100.0
+har,v3 jan,0,9,s2952925,descending,100.0
+har,v3 jan,0,9,s2952925,running,100.0
+har,v3 jan,0,9,s2952925,miscMovement,92.3076923076923
+har,v3 jan,1,0,jan,sittingStanding,99.58333333333333
+har,v3 jan,1,0,jan,lyingBack,100.0
+har,v3 jan,1,0,jan,lyingLeft,99.39024390243902
+har,v3 jan,1,0,jan,lyingRight,100.0
+har,v3 jan,1,0,jan,lyingStomach,100.0
+har,v3 jan,1,0,jan,normalWalking,94.87179487179486
+har,v3 jan,1,0,jan,shuffleWalking,91.9831223628692
+har,v3 jan,1,0,jan,ascending,86.07594936708861
+har,v3 jan,1,0,jan,descending,94.11764705882352
+har,v3 jan,1,0,jan,running,93.69747899159664
+har,v3 jan,1,0,jan,miscMovement,72.03389830508475
+har,v3 jan,1,1,jan,sittingStanding,100.0
+har,v3 jan,1,1,jan,lyingBack,100.0
+har,v3 jan,1,1,jan,lyingLeft,100.0
+har,v3 jan,1,1,jan,lyingRight,100.0
+har,v3 jan,1,1,jan,lyingStomach,95.18072289156626
+har,v3 jan,1,1,jan,normalWalking,76.37130801687763
+har,v3 jan,1,1,jan,shuffleWalking,95.70815450643777
+har,v3 jan,1,1,jan,ascending,96.58119658119658
+har,v3 jan,1,1,jan,descending,98.5576923076923
+har,v3 jan,1,1,jan,running,95.72649572649573
+har,v3 jan,1,1,jan,miscMovement,74.78991596638656
+har,v3 jan,1,2,jan,sittingStanding,100.0
+har,v3 jan,1,2,jan,lyingBack,100.0
+har,v3 jan,1,2,jan,lyingLeft,100.0
+har,v3 jan,1,2,jan,lyingRight,100.0
+har,v3 jan,1,2,jan,lyingStomach,100.0
+har,v3 jan,1,2,jan,normalWalking,91.91489361702128
+har,v3 jan,1,2,jan,shuffleWalking,83.19327731092437
+har,v3 jan,1,2,jan,ascending,91.52542372881356
+har,v3 jan,1,2,jan,descending,91.42857142857143
+har,v3 jan,1,2,jan,running,98.71794871794873
+har,v3 jan,1,2,jan,miscMovement,75.1131221719457
+har,v3 jan,1,3,jan,sittingStanding,100.0
+har,v3 jan,1,3,jan,lyingBack,100.0
+har,v3 jan,1,3,jan,lyingLeft,100.0
+har,v3 jan,1,3,jan,lyingRight,100.0
+har,v3 jan,1,3,jan,lyingStomach,100.0
+har,v3 jan,1,3,jan,normalWalking,79.74683544303798
+har,v3 jan,1,3,jan,shuffleWalking,83.96624472573839
+har,v3 jan,1,3,jan,ascending,86.03603603603604
+har,v3 jan,1,3,jan,descending,89.47368421052632
+har,v3 jan,1,3,jan,running,97.86324786324786
+har,v3 jan,1,3,jan,miscMovement,74.55357142857143
+har,v3 jan,1,4,jan,sittingStanding,100.0
+har,v3 jan,1,4,jan,lyingBack,100.0
+har,v3 jan,1,4,jan,lyingLeft,100.0
+har,v3 jan,1,4,jan,lyingRight,100.0
+har,v3 jan,1,4,jan,lyingStomach,100.0
+har,v3 jan,1,4,jan,normalWalking,94.04255319148936
+har,v3 jan,1,4,jan,shuffleWalking,98.66071428571429
+har,v3 jan,1,4,jan,ascending,88.39285714285714
+har,v3 jan,1,4,jan,descending,94.73684210526315
+har,v3 jan,1,4,jan,running,94.0677966101695
+har,v3 jan,1,4,jan,miscMovement,71.62162162162163
+har,v3 mixed,0,0,jan,sittingStanding,99.58333333333333
+har,v3 mixed,0,0,jan,lyingBack,100.0
+har,v3 mixed,0,0,jan,lyingLeft,100.0
+har,v3 mixed,0,0,jan,lyingRight,100.0
+har,v3 mixed,0,0,jan,lyingStomach,100.0
+har,v3 mixed,0,0,jan,normalWalking,96.58119658119658
+har,v3 mixed,0,0,jan,shuffleWalking,86.07594936708861
+har,v3 mixed,0,0,jan,ascending,86.07594936708861
+har,v3 mixed,0,0,jan,descending,94.6078431372549
+har,v3 mixed,0,0,jan,running,94.11764705882352
+har,v3 mixed,0,0,jan,miscMovement,74.57627118644068
+har,v3 mixed,0,1,jan,sittingStanding,100.0
+har,v3 mixed,0,1,jan,lyingBack,100.0
+har,v3 mixed,0,1,jan,lyingLeft,100.0
+har,v3 mixed,0,1,jan,lyingRight,100.0
+har,v3 mixed,0,1,jan,lyingStomach,95.98393574297188
+har,v3 mixed,0,1,jan,normalWalking,74.68354430379746
+har,v3 mixed,0,1,jan,shuffleWalking,94.84978540772532
+har,v3 mixed,0,1,jan,ascending,92.73504273504274
+har,v3 mixed,0,1,jan,descending,99.51923076923077
+har,v3 mixed,0,1,jan,running,96.15384615384616
+har,v3 mixed,0,1,jan,miscMovement,82.35294117647058
+har,v3 mixed,0,2,jan,sittingStanding,100.0
+har,v3 mixed,0,2,jan,lyingBack,100.0
+har,v3 mixed,0,2,jan,lyingLeft,100.0
+har,v3 mixed,0,2,jan,lyingRight,100.0
+har,v3 mixed,0,2,jan,lyingStomach,100.0
+har,v3 mixed,0,2,jan,normalWalking,91.91489361702128
+har,v3 mixed,0,2,jan,shuffleWalking,86.1344537815126
+har,v3 mixed,0,2,jan,ascending,91.94915254237289
+har,v3 mixed,0,2,jan,descending,91.9047619047619
+har,v3 mixed,0,2,jan,running,95.2991452991453
+har,v3 mixed,0,2,jan,miscMovement,76.92307692307693
+har,v3 mixed,0,3,jan,sittingStanding,100.0
+har,v3 mixed,0,3,jan,lyingBack,100.0
+har,v3 mixed,0,3,jan,lyingLeft,100.0
+har,v3 mixed,0,3,jan,lyingRight,100.0
+har,v3 mixed,0,3,jan,lyingStomach,100.0
+har,v3 mixed,0,3,jan,normalWalking,84.38818565400844
+har,v3 mixed,0,3,jan,shuffleWalking,81.43459915611815
+har,v3 mixed,0,3,jan,ascending,84.23423423423422
+har,v3 mixed,0,3,jan,descending,90.9090909090909
+har,v3 mixed,0,3,jan,running,97.86324786324786
+har,v3 mixed,0,3,jan,miscMovement,75.0
+har,v3 mixed,0,4,jan,sittingStanding,100.0
+har,v3 mixed,0,4,jan,lyingBack,100.0
+har,v3 mixed,0,4,jan,lyingLeft,100.0
+har,v3 mixed,0,4,jan,lyingRight,100.0
+har,v3 mixed,0,4,jan,lyingStomach,100.0
+har,v3 mixed,0,4,jan,normalWalking,95.74468085106383
+har,v3 mixed,0,4,jan,shuffleWalking,97.32142857142857
+har,v3 mixed,0,4,jan,ascending,88.83928571428571
+har,v3 mixed,0,4,jan,descending,98.08612440191388
+har,v3 mixed,0,4,jan,running,92.79661016949152
+har,v3 mixed,0,4,jan,miscMovement,74.77477477477478
+har,v3 mixed,0,5,jan,sittingStanding,93.52941176470588
+har,v3 mixed,0,5,jan,lyingBack,100.0
+har,v3 mixed,0,5,jan,lyingLeft,100.0
+har,v3 mixed,0,5,jan,lyingRight,100.0
+har,v3 mixed,0,5,jan,lyingStomach,100.0
+har,v3 mixed,0,5,jan,normalWalking,92.7038626609442
+har,v3 mixed,0,5,jan,shuffleWalking,77.82805429864254
+har,v3 mixed,0,5,jan,ascending,93.72197309417041
+har,v3 mixed,0,5,jan,descending,98.06763285024155
+har,v3 mixed,0,5,jan,running,100.0
+har,v3 mixed,0,5,jan,miscMovement,79.72972972972973
+har,v3 mixed,0,6,jan,sittingStanding,89.63414634146342
+har,v3 mixed,0,6,jan,lyingBack,100.0
+har,v3 mixed,0,6,jan,lyingLeft,100.0
+har,v3 mixed,0,6,jan,lyingRight,100.0
+har,v3 mixed,0,6,jan,lyingStomach,100.0
+har,v3 mixed,0,6,jan,normalWalking,84.0
+har,v3 mixed,0,6,jan,shuffleWalking,92.72727272727272
+har,v3 mixed,0,6,jan,ascending,98.65470852017937
+har,v3 mixed,0,6,jan,descending,93.29896907216495
+har,v3 mixed,0,6,jan,running,94.91525423728814
+har,v3 mixed,0,6,jan,miscMovement,72.6457399103139
+har,v3 mixed,0,7,jan,sittingStanding,99.78813559322035
+har,v3 mixed,0,7,jan,lyingBack,100.0
+har,v3 mixed,0,7,jan,lyingLeft,100.0
+har,v3 mixed,0,7,jan,lyingRight,100.0
+har,v3 mixed,0,7,jan,lyingStomach,100.0
+har,v3 mixed,0,7,jan,normalWalking,96.3963963963964
+har,v3 mixed,0,7,jan,shuffleWalking,75.9090909090909
+har,v3 mixed,0,7,jan,ascending,95.08928571428571
+har,v3 mixed,0,7,jan,descending,88.54166666666666
+har,v3 mixed,0,7,jan,running,96.56652360515021
+har,v3 mixed,0,7,jan,miscMovement,83.05084745762711
+har,v3 mixed,0,8,jan,sittingStanding,100.0
+har,v3 mixed,0,8,jan,lyingBack,100.0
+har,v3 mixed,0,8,jan,lyingLeft,100.0
+har,v3 mixed,0,8,jan,lyingRight,100.0
+har,v3 mixed,0,8,jan,lyingStomach,100.0
+har,v3 mixed,0,8,jan,normalWalking,92.34234234234235
+har,v3 mixed,0,8,jan,shuffleWalking,96.3963963963964
+har,v3 mixed,0,8,jan,ascending,99.10714285714286
+har,v3 mixed,0,8,jan,descending,84.1025641025641
+har,v3 mixed,0,8,jan,running,99.0909090909091
+har,v3 mixed,0,8,jan,miscMovement,72.6457399103139
+har,v3 mixed,0,8,s2503795,sittingStanding,99.48979591836735
+har,v3 mixed,0,8,s2503795,lyingBack,100.0
+har,v3 mixed,0,8,s2503795,lyingLeft,100.0
+har,v3 mixed,0,8,s2503795,lyingRight,100.0
+har,v3 mixed,0,8,s2503795,lyingStomach,100.0
+har,v3 mixed,0,8,s2503795,normalWalking,100.0
+har,v3 mixed,0,8,s2503795,shuffleWalking,85.71428571428571
+har,v3 mixed,0,8,s2503795,ascending,100.0
+har,v3 mixed,0,8,s2503795,descending,100.0
+har,v3 mixed,0,8,s2503795,running,100.0
+har,v3 mixed,0,8,s2503795,miscMovement,71.42857142857143
+har,v3 mixed,0,9,jan,sittingStanding,91.74852652259332
+har,v3 mixed,0,9,jan,lyingBack,100.0
+har,v3 mixed,0,9,jan,lyingLeft,100.0
+har,v3 mixed,0,9,jan,lyingRight,100.0
+har,v3 mixed,0,9,jan,lyingStomach,100.0
+har,v3 mixed,0,9,jan,normalWalking,98.21428571428571
+har,v3 mixed,0,9,jan,shuffleWalking,95.47511312217195
+har,v3 mixed,0,9,jan,ascending,90.49773755656109
+har,v3 mixed,0,9,jan,descending,93.33333333333333
+har,v3 mixed,0,9,jan,running,100.0
+har,v3 mixed,0,9,jan,miscMovement,75.89285714285714
+har,v3 mixed,0,9,s2952925,sittingStanding,97.40932642487047
+har,v3 mixed,0,9,s2952925,lyingBack,100.0
+har,v3 mixed,0,9,s2952925,lyingLeft,100.0
+har,v3 mixed,0,9,s2952925,lyingRight,100.0
+har,v3 mixed,0,9,s2952925,lyingStomach,100.0
+har,v3 mixed,0,9,s2952925,normalWalking,100.0
+har,v3 mixed,0,9,s2952925,shuffleWalking,92.85714285714286
+har,v3 mixed,0,9,s2952925,ascending,100.0
+har,v3 mixed,0,9,s2952925,descending,100.0
+har,v3 mixed,0,9,s2952925,running,100.0
+har,v3 mixed,0,9,s2952925,miscMovement,92.3076923076923
+har,v3 mixed,1,0,jan,sittingStanding,99.79166666666667
+har,v3 mixed,1,0,jan,lyingBack,100.0
+har,v3 mixed,1,0,jan,lyingLeft,100.0
+har,v3 mixed,1,0,jan,lyingRight,100.0
+har,v3 mixed,1,0,jan,lyingStomach,100.0
+har,v3 mixed,1,0,jan,normalWalking,93.16239316239316
+har,v3 mixed,1,0,jan,shuffleWalking,85.23206751054853
+har,v3 mixed,1,0,jan,ascending,89.45147679324894
+har,v3 mixed,1,0,jan,descending,88.72549019607843
+har,v3 mixed,1,0,jan,running,94.11764705882352
+har,v3 mixed,1,0,jan,miscMovement,70.33898305084746
+har,v3 mixed,1,1,jan,sittingStanding,100.0
+har,v3 mixed,1,1,jan,lyingBack,100.0
+har,v3 mixed,1,1,jan,lyingLeft,100.0
+har,v3 mixed,1,1,jan,lyingRight,100.0
+har,v3 mixed,1,1,jan,lyingStomach,97.59036144578313
+har,v3 mixed,1,1,jan,normalWalking,77.21518987341773
+har,v3 mixed,1,1,jan,shuffleWalking,94.84978540772532
+har,v3 mixed,1,1,jan,ascending,94.87179487179486
+har,v3 mixed,1,1,jan,descending,98.5576923076923
+har,v3 mixed,1,1,jan,running,95.2991452991453
+har,v3 mixed,1,1,jan,miscMovement,74.78991596638656
+har,v3 mixed,1,2,jan,sittingStanding,100.0
+har,v3 mixed,1,2,jan,lyingBack,100.0
+har,v3 mixed,1,2,jan,lyingLeft,100.0
+har,v3 mixed,1,2,jan,lyingRight,100.0
+har,v3 mixed,1,2,jan,lyingStomach,100.0
+har,v3 mixed,1,2,jan,normalWalking,90.2127659574468
+har,v3 mixed,1,2,jan,shuffleWalking,87.39495798319328
+har,v3 mixed,1,2,jan,ascending,90.2542372881356
+har,v3 mixed,1,2,jan,descending,89.52380952380953
+har,v3 mixed,1,2,jan,running,96.58119658119658
+har,v3 mixed,1,2,jan,miscMovement,72.85067873303167
+har,v3 mixed,1,3,jan,sittingStanding,100.0
+har,v3 mixed,1,3,jan,lyingBack,100.0
+har,v3 mixed,1,3,jan,lyingLeft,100.0
+har,v3 mixed,1,3,jan,lyingRight,100.0
+har,v3 mixed,1,3,jan,lyingStomach,100.0
+har,v3 mixed,1,3,jan,normalWalking,80.59071729957806
+har,v3 mixed,1,3,jan,shuffleWalking,83.96624472573839
+har,v3 mixed,1,3,jan,ascending,88.28828828828829
+har,v3 mixed,1,3,jan,descending,90.9090909090909
+har,v3 mixed,1,3,jan,running,97.00854700854701
+har,v3 mixed,1,3,jan,miscMovement,75.89285714285714
+har,v3 mixed,1,4,jan,sittingStanding,99.36440677966102
+har,v3 mixed,1,4,jan,lyingBack,100.0
+har,v3 mixed,1,4,jan,lyingLeft,100.0
+har,v3 mixed,1,4,jan,lyingRight,100.0
+har,v3 mixed,1,4,jan,lyingStomach,100.0
+har,v3 mixed,1,4,jan,normalWalking,94.8936170212766
+har,v3 mixed,1,4,jan,shuffleWalking,98.66071428571429
+har,v3 mixed,1,4,jan,ascending,87.94642857142857
+har,v3 mixed,1,4,jan,descending,95.69377990430623
+har,v3 mixed,1,4,jan,running,94.91525423728814
+har,v3 mixed,1,4,jan,miscMovement,77.47747747747748
+har,v3 mixed,1,5,jan,sittingStanding,93.33333333333333
+har,v3 mixed,1,5,jan,lyingBack,100.0
+har,v3 mixed,1,5,jan,lyingLeft,100.0
+har,v3 mixed,1,5,jan,lyingRight,100.0
+har,v3 mixed,1,5,jan,lyingStomach,100.0
+har,v3 mixed,1,5,jan,normalWalking,90.98712446351931
+har,v3 mixed,1,5,jan,shuffleWalking,78.73303167420815
+har,v3 mixed,1,5,jan,ascending,95.06726457399103
+har,v3 mixed,1,5,jan,descending,98.06763285024155
+har,v3 mixed,1,5,jan,running,100.0
+har,v3 mixed,1,5,jan,miscMovement,74.32432432432432
+har,v3 mixed,1,6,jan,sittingStanding,89.83739837398373
+har,v3 mixed,1,6,jan,lyingBack,100.0
+har,v3 mixed,1,6,jan,lyingLeft,100.0
+har,v3 mixed,1,6,jan,lyingRight,100.0
+har,v3 mixed,1,6,jan,lyingStomach,100.0
+har,v3 mixed,1,6,jan,normalWalking,85.33333333333334
+har,v3 mixed,1,6,jan,shuffleWalking,91.81818181818183
+har,v3 mixed,1,6,jan,ascending,99.55156950672645
+har,v3 mixed,1,6,jan,descending,93.29896907216495
+har,v3 mixed,1,6,jan,running,93.22033898305084
+har,v3 mixed,1,6,jan,miscMovement,72.19730941704036
+har,v3 mixed,1,7,jan,sittingStanding,99.78813559322035
+har,v3 mixed,1,7,jan,lyingBack,100.0
+har,v3 mixed,1,7,jan,lyingLeft,100.0
+har,v3 mixed,1,7,jan,lyingRight,100.0
+har,v3 mixed,1,7,jan,lyingStomach,100.0
+har,v3 mixed,1,7,jan,normalWalking,96.3963963963964
+har,v3 mixed,1,7,jan,shuffleWalking,74.54545454545455
+har,v3 mixed,1,7,jan,ascending,98.21428571428571
+har,v3 mixed,1,7,jan,descending,93.75
+har,v3 mixed,1,7,jan,running,97.85407725321889
+har,v3 mixed,1,7,jan,miscMovement,82.20338983050848
+har,v3 mixed,1,8,jan,sittingStanding,100.0
+har,v3 mixed,1,8,jan,lyingBack,100.0
+har,v3 mixed,1,8,jan,lyingLeft,100.0
+har,v3 mixed,1,8,jan,lyingRight,100.0
+har,v3 mixed,1,8,jan,lyingStomach,100.0
+har,v3 mixed,1,8,jan,normalWalking,93.69369369369369
+har,v3 mixed,1,8,jan,shuffleWalking,94.5945945945946
+har,v3 mixed,1,8,jan,ascending,96.875
+har,v3 mixed,1,8,jan,descending,85.64102564102564
+har,v3 mixed,1,8,jan,running,99.0909090909091
+har,v3 mixed,1,8,jan,miscMovement,78.02690582959642
+har,v3 mixed,1,8,s2503795,sittingStanding,98.46938775510205
+har,v3 mixed,1,8,s2503795,lyingBack,100.0
+har,v3 mixed,1,8,s2503795,lyingLeft,100.0
+har,v3 mixed,1,8,s2503795,lyingRight,100.0
+har,v3 mixed,1,8,s2503795,lyingStomach,100.0
+har,v3 mixed,1,8,s2503795,normalWalking,100.0
+har,v3 mixed,1,8,s2503795,shuffleWalking,100.0
+har,v3 mixed,1,8,s2503795,ascending,100.0
+har,v3 mixed,1,8,s2503795,descending,100.0
+har,v3 mixed,1,8,s2503795,running,100.0
+har,v3 mixed,1,8,s2503795,miscMovement,64.28571428571429
+har,v3 mixed,1,9,jan,sittingStanding,91.35559921414537
+har,v3 mixed,1,9,jan,lyingBack,100.0
+har,v3 mixed,1,9,jan,lyingLeft,100.0
+har,v3 mixed,1,9,jan,lyingRight,100.0
+har,v3 mixed,1,9,jan,lyingStomach,100.0
+har,v3 mixed,1,9,jan,normalWalking,96.42857142857143
+har,v3 mixed,1,9,jan,shuffleWalking,95.92760180995475
+har,v3 mixed,1,9,jan,ascending,90.9502262443439
+har,v3 mixed,1,9,jan,descending,91.28205128205128
+har,v3 mixed,1,9,jan,running,100.0
+har,v3 mixed,1,9,jan,miscMovement,75.89285714285714
+har,v3 mixed,1,9,s2952925,sittingStanding,97.92746113989638
+har,v3 mixed,1,9,s2952925,lyingBack,100.0
+har,v3 mixed,1,9,s2952925,lyingLeft,100.0
+har,v3 mixed,1,9,s2952925,lyingRight,100.0
+har,v3 mixed,1,9,s2952925,lyingStomach,100.0
+har,v3 mixed,1,9,s2952925,normalWalking,100.0
+har,v3 mixed,1,9,s2952925,shuffleWalking,92.85714285714286
+har,v3 mixed,1,9,s2952925,ascending,100.0
+har,v3 mixed,1,9,s2952925,descending,100.0
+har,v3 mixed,1,9,s2952925,running,100.0
+har,v3 mixed,1,9,s2952925,miscMovement,92.3076923076923
+social,v3 jan,0,0,jan,breathingNormally,80.46251993620415
+social,v3 jan,0,0,jan,coughing,86.50042992261393
+social,v3 jan,0,0,jan,hyperventilation,76.97314890154597
+social,v3 jan,0,0,jan,other,79.34272300469483
+social,v3 jan,0,1,jan,breathingNormally,87.32959101844426
+social,v3 jan,0,1,jan,coughing,80.70934256055364
+social,v3 jan,0,1,jan,hyperventilation,79.37551355792934
+social,v3 jan,0,1,jan,other,77.90726506322837
+social,v3 jan,0,2,jan,breathingNormally,89.87441130298272
+social,v3 jan,0,2,jan,coughing,80.42735042735043
+social,v3 jan,0,2,jan,hyperventilation,77.94117647058823
+social,v3 jan,0,2,jan,other,77.54595131644312
+social,v3 jan,0,3,jan,breathingNormally,88.8100866824271
+social,v3 jan,0,3,jan,coughing,87.66177739430545
+social,v3 jan,0,3,jan,hyperventilation,82.64802631578947
+social,v3 jan,0,3,jan,other,79.14703694520209
+social,v3 jan,0,4,jan,breathingNormally,86.67736757624398
+social,v3 jan,0,4,jan,coughing,89.41480206540447
+social,v3 jan,0,4,jan,hyperventilation,74.54394693200663
+social,v3 jan,0,4,jan,other,76.90588527439782
+social,v3 jan,0,5,jan,breathingNormally,89.49447077409162
+social,v3 jan,0,5,jan,coughing,85.9603789836348
+social,v3 jan,0,5,jan,hyperventilation,84.48844884488449
+social,v3 jan,0,5,jan,other,75.26080476900148
+social,v3 jan,0,6,jan,breathingNormally,93.0064308681672
+social,v3 jan,0,6,jan,coughing,89.27038626609442
+social,v3 jan,0,6,jan,hyperventilation,83.69028006589787
+social,v3 jan,0,6,jan,other,76.37130801687763
+social,v3 jan,0,7,jan,breathingNormally,88.75786163522012
+social,v3 jan,0,7,jan,coughing,82.17993079584775
+social,v3 jan,0,7,jan,hyperventilation,81.94558944765046
+social,v3 jan,0,7,jan,other,79.493545183714
+social,v3 jan,0,8,jan,breathingNormally,87.67660910518053
+social,v3 jan,0,8,jan,coughing,78.06788511749347
+social,v3 jan,0,8,jan,hyperventilation,86.36363636363636
+social,v3 jan,0,8,jan,other,77.77777777777779
+social,v3 jan,0,8,s2503795,breathingNormally,95.83333333333334
+social,v3 jan,0,8,s2503795,coughing,95.83333333333334
+social,v3 jan,0,8,s2503795,hyperventilation,100.0
+social,v3 jan,0,8,s2503795,other,86.25
+social,v3 jan,0,9,jan,breathingNormally,90.4645476772616
+social,v3 jan,0,9,jan,coughing,78.2532751091703
+social,v3 jan,0,9,jan,hyperventilation,80.77557755775577
+social,v3 jan,0,9,jan,other,76.64269774361517
+social,v3 jan,0,9,s2952925,breathingNormally,100.0
+social,v3 jan,0,9,s2952925,coughing,98.50746268656717
+social,v3 jan,0,9,s2952925,hyperventilation,100.0
+social,v3 jan,0,9,s2952925,other,82.30088495575221
+social,v3 jan,1,0,jan,breathingNormally,81.7384370015949
+social,v3 jan,1,0,jan,coughing,86.58641444539983
+social,v3 jan,1,0,jan,hyperventilation,75.58991049633849
+social,v3 jan,1,0,jan,other,78.10723993081294
+social,v3 jan,1,1,jan,breathingNormally,89.09382518043304
+social,v3 jan,1,1,jan,coughing,85.81314878892734
+social,v3 jan,1,1,jan,hyperventilation,75.67789646672145
+social,v3 jan,1,1,jan,other,76.0476072402678
+social,v3 mixed,0,0,jan,breathingNormally,83.1738437001595
+social,v3 mixed,0,0,jan,coughing,81.42734307824591
+social,v3 mixed,0,0,jan,hyperventilation,75.50854353132628
+social,v3 mixed,0,0,jan,other,77.11885347170744
+social,v3 mixed,0,1,jan,breathingNormally,89.49478748997595
+social,v3 mixed,0,1,jan,coughing,82.00692041522491
+social,v3 mixed,0,1,jan,hyperventilation,79.12900575184881
+social,v3 mixed,0,1,jan,other,77.26258368460203
+social,v3 mixed,0,2,jan,breathingNormally,87.04866562009418
+social,v3 mixed,0,2,jan,coughing,80.08547008547009
+social,v3 mixed,0,2,jan,hyperventilation,77.69607843137256
+social,v3 mixed,0,2,jan,other,79.25981122702434
+social,v3 mixed,0,3,jan,breathingNormally,89.99211977935381
+social,v3 mixed,0,3,jan,coughing,87.05780845556515
+social,v3 mixed,0,3,jan,hyperventilation,83.22368421052632
+social,v3 mixed,0,3,jan,other,77.01462930820729
+social,v3 mixed,0,4,jan,breathingNormally,86.2760834670947
+social,v3 mixed,0,4,jan,coughing,88.20998278829603
+social,v3 mixed,0,4,jan,hyperventilation,76.53399668325042
+social,v3 mixed,0,4,jan,other,78.69381673702507
+social,v3 mixed,0,5,jan,breathingNormally,87.36176935229068
+social,v3 mixed,0,5,jan,coughing,85.78811369509044
+social,v3 mixed,0,5,jan,hyperventilation,79.95049504950495
+social,v3 mixed,0,5,jan,other,78.21659215101839
+social,v3 mixed,0,6,jan,breathingNormally,93.16720257234726
+social,v3 mixed,0,6,jan,coughing,92.01716738197425
+social,v3 mixed,0,6,jan,hyperventilation,83.85502471169687
+social,v3 mixed,0,6,jan,other,76.71878878133532
+social,v3 mixed,0,7,jan,breathingNormally,88.12893081761007
+social,v3 mixed,0,7,jan,coughing,76.29757785467129
+social,v3 mixed,0,7,jan,hyperventilation,79.719703215169
+social,v3 mixed,0,7,jan,other,81.90168818272096
+social,v3 mixed,0,8,jan,breathingNormally,88.46153846153845
+social,v3 mixed,0,8,jan,coughing,78.67711053089643
+social,v3 mixed,0,8,jan,hyperventilation,84.54545454545455
+social,v3 mixed,0,8,jan,other,76.88292319164802
+social,v3 mixed,0,8,s2503795,breathingNormally,91.66666666666666
+social,v3 mixed,0,8,s2503795,coughing,95.83333333333334
+social,v3 mixed,0,8,s2503795,hyperventilation,100.0
+social,v3 mixed,0,8,s2503795,other,85.41666666666666
+social,v3 mixed,0,9,jan,breathingNormally,89.64955175224124
+social,v3 mixed,0,9,jan,coughing,77.90393013100436
+social,v3 mixed,0,9,jan,hyperventilation,81.43564356435643
+social,v3 mixed,0,9,jan,other,76.5187205554178
+social,v3 mixed,0,9,s2952925,breathingNormally,100.0
+social,v3 mixed,0,9,s2952925,coughing,100.0
+social,v3 mixed,0,9,s2952925,hyperventilation,98.52941176470588
+social,v3 mixed,0,9,s2952925,other,82.30088495575221
+social,v3 mixed,1,0,jan,breathingNormally,80.38277511961722
+social,v3 mixed,1,0,jan,coughing,84.78073946689597
+social,v3 mixed,1,0,jan,hyperventilation,76.89178193653376
+social,v3 mixed,1,0,jan,other,78.30491722263405
+social,v3 mixed,1,1,jan,breathingNormally,89.17401764234162
+social,v3 mixed,1,1,jan,coughing,81.92041522491348
+social,v3 mixed,1,1,jan,hyperventilation,78.38948233360723
+social,v3 mixed,1,1,jan,other,78.47756012893628
+social,v3 mixed,1,2,jan,breathingNormally,92.3076923076923
+social,v3 mixed,1,2,jan,coughing,81.7948717948718
+social,v3 mixed,1,2,jan,hyperventilation,78.10457516339869
+social,v3 mixed,1,2,jan,other,77.02434177844015
+social,v3 mixed,1,3,jan,breathingNormally,90.30732860520094
+social,v3 mixed,1,3,jan,coughing,86.02243313201036
+social,v3 mixed,1,3,jan,hyperventilation,83.88157894736842
+social,v3 mixed,1,3,jan,other,76.44433424249938
+social,v3 mixed,1,4,jan,breathingNormally,85.15248796147674
+social,v3 mixed,1,4,jan,coughing,88.46815834767642
+social,v3 mixed,1,4,jan,hyperventilation,76.69983416252073
+social,v3 mixed,1,4,jan,other,77.77501862428608
+social,v3 mixed,1,5,jan,breathingNormally,89.65244865718799
+social,v3 mixed,1,5,jan,coughing,85.35745047372954
+social,v3 mixed,1,5,jan,hyperventilation,82.5907590759076
+social,v3 mixed,1,5,jan,other,76.13015399900645
+social,v3 mixed,1,6,jan,breathingNormally,90.5144694533762
+social,v3 mixed,1,6,jan,coughing,89.27038626609442
+social,v3 mixed,1,6,jan,hyperventilation,82.12520593080724
+social,v3 mixed,1,6,jan,other,77.11590965500123
+social,v3 mixed,1,7,jan,breathingNormally,89.937106918239
+social,v3 mixed,1,7,jan,coughing,78.719723183391
+social,v3 mixed,1,7,jan,hyperventilation,80.9563066776587
+social,v3 mixed,1,7,jan,other,79.04667328699107
+social,v3 mixed,1,8,jan,breathingNormally,88.93249607535321
+social,v3 mixed,1,8,jan,coughing,79.98259355961706
+social,v3 mixed,1,8,jan,hyperventilation,82.23140495867769
+social,v3 mixed,1,8,jan,other,76.55978125776784
+social,v3 mixed,1,8,s2503795,breathingNormally,94.44444444444444
+social,v3 mixed,1,8,s2503795,coughing,94.44444444444444
+social,v3 mixed,1,8,s2503795,hyperventilation,98.61111111111111
+social,v3 mixed,1,8,s2503795,other,87.5
+social,v3 mixed,1,9,jan,breathingNormally,90.8720456397718
+social,v3 mixed,1,9,jan,coughing,77.20524017467248
+social,v3 mixed,1,9,jan,hyperventilation,81.84818481848185
+social,v3 mixed,1,9,jan,other,75.25415323580461
+social,v3 mixed,1,9,s2952925,breathingNormally,100.0
+social,v3 mixed,1,9,s2952925,coughing,98.50746268656717
+social,v3 mixed,1,9,s2952925,hyperventilation,97.05882352941177
+social,v3 mixed,1,9,s2952925,other,82.30088495575221
+har,v2 design mixed,0,0,jan,sittingStanding,98.95833333333334
+har,v2 design mixed,0,0,jan,lyingBack,100.0
+har,v2 design mixed,0,0,jan,lyingLeft,100.0
+har,v2 design mixed,0,0,jan,lyingRight,100.0
+har,v2 design mixed,0,0,jan,lyingStomach,100.0
+har,v2 design mixed,0,0,jan,normalWalking,94.87179487179486
+har,v2 design mixed,0,0,jan,shuffleWalking,88.60759493670885
+har,v2 design mixed,0,0,jan,ascending,87.34177215189874
+har,v2 design mixed,0,0,jan,descending,89.2156862745098
+har,v2 design mixed,0,0,jan,running,94.11764705882352
+har,v2 design mixed,0,0,jan,miscMovement,78.38983050847457
+har,v2 design mixed,0,1,jan,sittingStanding,100.0
+har,v2 design mixed,0,1,jan,lyingBack,100.0
+har,v2 design mixed,0,1,jan,lyingLeft,100.0
+har,v2 design mixed,0,1,jan,lyingRight,100.0
+har,v2 design mixed,0,1,jan,lyingStomach,96.78714859437751
+har,v2 design mixed,0,1,jan,normalWalking,76.79324894514767
+har,v2 design mixed,0,1,jan,shuffleWalking,90.55793991416309
+har,v2 design mixed,0,1,jan,ascending,93.16239316239316
+har,v2 design mixed,0,1,jan,descending,98.07692307692307
+har,v2 design mixed,0,1,jan,running,96.15384615384616
+har,v2 design mixed,0,1,jan,miscMovement,87.39495798319328
+har,v2 design mixed,0,2,jan,sittingStanding,100.0
+har,v2 design mixed,0,2,jan,lyingBack,100.0
+har,v2 design mixed,0,2,jan,lyingLeft,100.0
+har,v2 design mixed,0,2,jan,lyingRight,100.0
+har,v2 design mixed,0,2,jan,lyingStomach,100.0
+har,v2 design mixed,0,2,jan,normalWalking,89.7872340425532
+har,v2 design mixed,0,2,jan,shuffleWalking,87.39495798319328
+har,v2 design mixed,0,2,jan,ascending,92.79661016949152
+har,v2 design mixed,0,2,jan,descending,91.9047619047619
+har,v2 design mixed,0,2,jan,running,95.72649572649573
+har,v2 design mixed,0,2,jan,miscMovement,81.90045248868778
+har,v2 design mixed,0,3,jan,sittingStanding,100.0
+har,v2 design mixed,0,3,jan,lyingBack,100.0
+har,v2 design mixed,0,3,jan,lyingLeft,100.0
+har,v2 design mixed,0,3,jan,lyingRight,100.0
+har,v2 design mixed,0,3,jan,lyingStomach,100.0
+har,v2 design mixed,0,3,jan,normalWalking,84.81012658227847
+har,v2 design mixed,0,3,jan,shuffleWalking,83.96624472573839
+har,v2 design mixed,0,3,jan,ascending,86.03603603603604
+har,v2 design mixed,0,3,jan,descending,88.99521531100478
+har,v2 design mixed,0,3,jan,running,98.29059829059828
+har,v2 design mixed,0,3,jan,miscMovement,77.67857142857143
+har,v2 design mixed,0,4,jan,sittingStanding,100.0
+har,v2 design mixed,0,4,jan,lyingBack,100.0
+har,v2 design mixed,0,4,jan,lyingLeft,100.0
+har,v2 design mixed,0,4,jan,lyingRight,100.0
+har,v2 design mixed,0,4,jan,lyingStomach,100.0
+har,v2 design mixed,0,4,jan,normalWalking,93.61702127659575
+har,v2 design mixed,0,4,jan,shuffleWalking,98.21428571428571
+har,v2 design mixed,0,4,jan,ascending,91.51785714285714
+har,v2 design mixed,0,4,jan,descending,95.21531100478468
+har,v2 design mixed,0,4,jan,running,93.64406779661016
+har,v2 design mixed,0,4,jan,miscMovement,85.13513513513513
+har,v2 design mixed,0,5,jan,sittingStanding,92.74509803921569
+har,v2 design mixed,0,5,jan,lyingBack,100.0
+har,v2 design mixed,0,5,jan,lyingLeft,100.0
+har,v2 design mixed,0,5,jan,lyingRight,100.0
+har,v2 design mixed,0,5,jan,lyingStomach,100.0
+har,v2 design mixed,0,5,jan,normalWalking,90.98712446351931
+har,v2 design mixed,0,5,jan,shuffleWalking,80.09049773755656
+har,v2 design mixed,0,5,jan,ascending,94.61883408071749
+har,v2 design mixed,0,5,jan,descending,98.55072463768117
+har,v2 design mixed,0,5,jan,running,100.0
+har,v2 design mixed,0,5,jan,miscMovement,80.63063063063063
+har,v2 design mixed,0,6,jan,sittingStanding,90.85365853658537
+har,v2 design mixed,0,6,jan,lyingBack,100.0
+har,v2 design mixed,0,6,jan,lyingLeft,100.0
+har,v2 design mixed,0,6,jan,lyingRight,100.0
+har,v2 design mixed,0,6,jan,lyingStomach,100.0
+har,v2 design mixed,0,6,jan,normalWalking,83.55555555555556
+har,v2 design mixed,0,6,jan,shuffleWalking,90.9090909090909
+har,v2 design mixed,0,6,jan,ascending,97.30941704035875
+har,v2 design mixed,0,6,jan,descending,91.75257731958763
+har,v2 design mixed,0,6,jan,running,95.76271186440678
+har,v2 design mixed,0,6,jan,miscMovement,80.71748878923766
+har,v2 design mixed,0,7,jan,sittingStanding,99.36440677966102
+har,v2 design mixed,0,7,jan,lyingBack,100.0
+har,v2 design mixed,0,7,jan,lyingLeft,100.0
+har,v2 design mixed,0,7,jan,lyingRight,100.0
+har,v2 design mixed,0,7,jan,lyingStomach,100.0
+har,v2 design mixed,0,7,jan,normalWalking,94.14414414414415
+har,v2 design mixed,0,7,jan,shuffleWalking,73.18181818181819
+har,v2 design mixed,0,7,jan,ascending,97.32142857142857
+har,v2 design mixed,0,7,jan,descending,91.14583333333334
+har,v2 design mixed,0,7,jan,running,99.57081545064378
+har,v2 design mixed,0,7,jan,miscMovement,86.01694915254238
+har,v2 design mixed,0,8,jan,sittingStanding,100.0
+har,v2 design mixed,0,8,jan,lyingBack,100.0
+har,v2 design mixed,0,8,jan,lyingLeft,100.0
+har,v2 design mixed,0,8,jan,lyingRight,100.0
+har,v2 design mixed,0,8,jan,lyingStomach,100.0
+har,v2 design mixed,0,8,jan,normalWalking,90.54054054054053
+har,v2 design mixed,0,8,jan,shuffleWalking,92.7927927927928
+har,v2 design mixed,0,8,jan,ascending,100.0
+har,v2 design mixed,0,8,jan,descending,85.64102564102564
+har,v2 design mixed,0,8,jan,running,97.72727272727273
+har,v2 design mixed,0,8,jan,miscMovement,88.34080717488789
+har,v2 design mixed,0,8,s2503795,sittingStanding,96.42857142857143
+har,v2 design mixed,0,8,s2503795,lyingBack,100.0
+har,v2 design mixed,0,8,s2503795,lyingLeft,100.0
+har,v2 design mixed,0,8,s2503795,lyingRight,100.0
+har,v2 design mixed,0,8,s2503795,lyingStomach,100.0
+har,v2 design mixed,0,8,s2503795,normalWalking,100.0
+har,v2 design mixed,0,8,s2503795,shuffleWalking,100.0
+har,v2 design mixed,0,8,s2503795,ascending,100.0
+har,v2 design mixed,0,8,s2503795,descending,100.0
+har,v2 design mixed,0,8,s2503795,running,100.0
+har,v2 design mixed,0,8,s2503795,miscMovement,100.0
+har,v2 design mixed,0,9,jan,sittingStanding,89.9803536345776
+har,v2 design mixed,0,9,jan,lyingBack,100.0
+har,v2 design mixed,0,9,jan,lyingLeft,100.0
+har,v2 design mixed,0,9,jan,lyingRight,100.0
+har,v2 design mixed,0,9,jan,lyingStomach,100.0
+har,v2 design mixed,0,9,jan,normalWalking,94.19642857142857
+har,v2 design mixed,0,9,jan,shuffleWalking,93.21266968325791
+har,v2 design mixed,0,9,jan,ascending,94.57013574660633
+har,v2 design mixed,0,9,jan,descending,95.38461538461539
+har,v2 design mixed,0,9,jan,running,98.20627802690582
+har,v2 design mixed,0,9,jan,miscMovement,81.25
+har,v2 design mixed,0,9,s2952925,sittingStanding,98.96373056994818
+har,v2 design mixed,0,9,s2952925,lyingBack,100.0
+har,v2 design mixed,0,9,s2952925,lyingLeft,100.0
+har,v2 design mixed,0,9,s2952925,lyingRight,100.0
+har,v2 design mixed,0,9,s2952925,lyingStomach,100.0
+har,v2 design mixed,0,9,s2952925,normalWalking,100.0
+har,v2 design mixed,0,9,s2952925,shuffleWalking,85.71428571428571
+har,v2 design mixed,0,9,s2952925,ascending,100.0
+har,v2 design mixed,0,9,s2952925,descending,100.0
+har,v2 design mixed,0,9,s2952925,running,100.0
+har,v2 design mixed,0,9,s2952925,miscMovement,100.0
+social,v2 design mixed,0,0,jan,breathingNormally,78.51361295069904
+social,v2 design mixed,0,0,jan,coughing,82.4742268041237
+social,v2 design mixed,0,0,jan,hyperventilation,76.65165165165165
+social,v2 design mixed,0,0,jan,other,78.18554821062229
+social,v2 design mixed,0,1,jan,breathingNormally,86.16863905325444
+social,v2 design mixed,0,1,jan,coughing,82.93460925039872
+social,v2 design mixed,0,1,jan,hyperventilation,78.63636363636364
+social,v2 design mixed,0,1,jan,other,78.48159158472444
+social,v2 design mixed,0,2,jan,breathingNormally,87.01957940536622
+social,v2 design mixed,0,2,jan,coughing,78.31230283911673
+social,v2 design mixed,0,2,jan,hyperventilation,77.01582516955538
+social,v2 design mixed,0,2,jan,other,79.61053837342497
+social,v2 design mixed,0,3,jan,breathingNormally,85.73508005822417
+social,v2 design mixed,0,3,jan,coughing,84.88464598249801
+social,v2 design mixed,0,3,jan,hyperventilation,81.80439727065959
+social,v2 design mixed,0,3,jan,other,79.7804208600183
+social,v2 design mixed,0,4,jan,breathingNormally,85.0481125092524
+social,v2 design mixed,0,4,jan,coughing,84.76190476190476
+social,v2 design mixed,0,4,jan,hyperventilation,78.89908256880734
+social,v2 design mixed,0,4,jan,other,78.14933577645442
+social,v2 design mixed,0,5,jan,breathingNormally,87.96498905908096
+social,v2 design mixed,0,5,jan,coughing,85.38522637013503
+social,v2 design mixed,0,5,jan,hyperventilation,82.42009132420091
+social,v2 design mixed,0,5,jan,other,75.25773195876289
+social,v2 design mixed,0,6,jan,breathingNormally,86.5826538176427
+social,v2 design mixed,0,6,jan,coughing,88.59857482185272
+social,v2 design mixed,0,6,jan,hyperventilation,81.0790273556231
+social,v2 design mixed,0,6,jan,other,79.78479853479854
+social,v2 design mixed,0,7,jan,breathingNormally,87.3546511627907
+social,v2 design mixed,0,7,jan,coughing,79.16999201915404
+social,v2 design mixed,0,7,jan,hyperventilation,80.30418250950571
+social,v2 design mixed,0,7,jan,other,80.78772612777651
+social,v2 design mixed,0,8,jan,breathingNormally,85.12336719883889
+social,v2 design mixed,0,8,jan,coughing,76.00321027287319
+social,v2 design mixed,0,8,jan,hyperventilation,79.4969512195122
+social,v2 design mixed,0,8,jan,other,80.92618065107749
+social,v2 design mixed,0,8,s2503795,breathingNormally,91.02564102564102
+social,v2 design mixed,0,8,s2503795,coughing,93.58974358974359
+social,v2 design mixed,0,8,s2503795,hyperventilation,97.43589743589743
+social,v2 design mixed,0,8,s2503795,other,88.07692307692308
+social,v2 design mixed,0,9,jan,breathingNormally,90.00751314800901
+social,v2 design mixed,0,9,jan,coughing,78.34138486312399
+social,v2 design mixed,0,9,jan,hyperventilation,79.75646879756468
+social,v2 design mixed,0,9,jan,other,76.46386093321135
+social,v2 design mixed,0,9,s2952925,breathingNormally,98.64864864864865
+social,v2 design mixed,0,9,s2952925,coughing,100.0
+social,v2 design mixed,0,9,s2952925,hyperventilation,100.0
+social,v2 design mixed,0,9,s2952925,other,80.89430894308943
